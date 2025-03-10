@@ -1,0 +1,56 @@
+description: amplifier Operation Command
+name: amplifier
+values:
+  AMTOFF:
+    description: sets Audio Muting On
+    models: &id001
+    - HM76
+    - HM86
+    - N-30AE
+    - N-50AE
+    - N-70AE
+    - NC50
+    - NS-6130
+    - NS-6170
+    - R-N855
+    name: audio-muting-on
+  AMTON:
+    description: sets Audio Muting Off
+    models: *id001
+    name: audio-muting-off
+  AMTTG:
+    description: sets Audio Muting On/Off(toggle)
+    models: *id001
+    name:
+    - audio-muting-on
+    - 'off'
+  MVLDOWN:
+    description: sets Volume Level Down
+    models: *id001
+    name: volume-down
+  MVLUP:
+    description: sets Volume Level Up
+    models: *id001
+    name: volume-up
+  PWROFF:
+    description: sets System Standby
+    models: *id001
+    name: system-standby
+  PWRON:
+    description: sets System On
+    models: *id001
+    name: system-on
+  PWRTG:
+    description: sets System On/Standby(toggle)
+    models: *id001
+    name:
+    - system-on
+    - standby
+  SLIDOWN:
+    description: sets Selector Position Wrap-Around Down
+    models: *id001
+    name: slidown
+  SLIUP:
+    description: sets Selector Position Wrap-Around Up
+    models: *id001
+    name: sliup

@@ -23,7 +23,8 @@ for zone, zone_data in data.items():
     output_dir = path.join('commands', zone)
     if not path.exists(output_dir):
       os.makedirs(output_dir)
-
+    if command != "blueray":
+       continue
     filename = path.join(output_dir, '%s.yaml' % command)
 
     for value_data in command_data['values'].values():

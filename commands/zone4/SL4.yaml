@@ -29,7 +29,8 @@ values:
     models: *id001
     name:
     - video3
-    - game/tv
+    - game
+    - tv
     - game
     - game1
   '03':
@@ -85,7 +86,8 @@ values:
     models: *id001
     name:
     - tape-1
-    - tv/tape
+    - tv
+    - tape
   '21':
     description: sets TAPE2
     models: *id001
@@ -99,7 +101,8 @@ values:
     models: *id001
     name:
     - cd
-    - tv/cd
+    - tv
+    - cd
   '24':
     description: sets FM
     models: *id001
@@ -146,9 +149,9 @@ values:
     models: *id001
     name: usb
   2D:
-    description: sets Airplay
+    description: Airplay
     models: *id001
-    name: airplay
+    name: 2d
   2E:
     description: sets Bluetooth
     models: *id001
@@ -166,7 +169,7 @@ values:
     models: *id001
     name: sirius
   '33':
-    description: 'sets DAB '
+    description: sets DAB
     models: *id001
     name: dab
   '40':

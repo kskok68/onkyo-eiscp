@@ -1,8 +1,9 @@
 description: Zone3 Volume Command
 name: volume
 values:
-  DOWN:
-    description: sets Volume Level Down
+  ? - 0
+    - 200
+  : description: Volume Level 0.0 - 100.0 ( In hexadecimal representation)
     models: &id001
     - /616AE(Ether)
     - /818AE
@@ -14,10 +15,23 @@ values:
     - DHC-80.6
     - DHC-9.9
     - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
     - DRX-5
-    - DRX-5.1
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
     - DRX-7
+    - DRX-7.1
+    - DRX-7.3
     - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
     - DTC-9.8
     - DTR-10.5
     - DTR-30.4
@@ -82,6 +96,8 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR787
+    - TX-NR797
     - TX-NR807
     - TX-NR808
     - TX-NR809
@@ -93,10 +109,18 @@ values:
     - TX-NR929
     - TX-RZ1100
     - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
     - TX-RZ800
     - TX-RZ810
     - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
     - TX-RZ900
+    - TX-RZ920
     - TX-SA805
     - TX-SA806X
     - TX-SA875
@@ -104,33 +128,31 @@ values:
     - TX-SR805
     - TX-SR875
     - TX-SR876
-    name: level-down
+  ? - 0
+    - 100
+  : description: Volume Level 0 - 100 ( In hexadecimal representation)
+    models: *id001
+  ? - 0
+    - 80
+  : description: Volume Level 0 - 80 ( In hexadecimal representation)
+    models: *id001
+  UP:
+    description: sets Volume Level Up
+    models: *id001
+    name: up
+  DOWN:
+    description: sets Volume Level Down
+    models: *id001
+    name: down
+  UP1:
+    description: sets Volume Level Up 1dB Step
+    models: *id001
+    name: up-1db-step
   DOWN1:
     description: sets Volume Level Down 1dB Step
     models: *id001
-    name: level-down-1db-step
+    name: down-1db-step
   QSTN:
     description: gets the Volume Level
     models: *id001
     name: query
-  UP:
-    description: sets Volume Level Up
-    models: *id001
-    name: level-up
-  UP1:
-    description: sets Volume Level Up 1dB Step
-    models: *id001
-    name: level-up-1db-step
-  ? - 0
-    - 80
-  : description: "Volume Level 0 \u2013 80 ( In hexadecimal representation)"
-    models: *id001
-  ? - 0
-    - 100
-  : description: "Volume Level 0 \u2013 100 ( In hexadecimal representation)"
-    models: *id001
-    name: vol-0-100
-  ? - 0
-    - 200
-  : description: "Volume Level 0.0 \u2013 100.0 ( In hexadecimal representation)"
-    models: *id001

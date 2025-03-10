@@ -14,10 +14,23 @@ values:
     - DHC-80.6
     - DHC-9.9
     - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
     - DRX-5
-    - DRX-5.1
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
     - DRX-7
+    - DRX-7.1
+    - DRX-7.3
     - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
     - DTC-9.8
     - DTR-10.5
     - DTR-30.4
@@ -82,6 +95,8 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR787
+    - TX-NR797
     - TX-NR807
     - TX-NR808
     - TX-NR809
@@ -93,10 +108,18 @@ values:
     - TX-NR929
     - TX-RZ1100
     - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
     - TX-RZ800
     - TX-RZ810
     - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
     - TX-RZ900
+    - TX-RZ920
     - TX-SA805
     - TX-SA806X
     - TX-SA875
@@ -122,7 +145,8 @@ values:
     models: *id001
     name:
     - video3
-    - game/tv
+    - game
+    - tv
     - game
     - game1
   '03':
@@ -195,7 +219,8 @@ values:
     models: *id001
     name:
     - cd
-    - tv/cd
+    - tv
+    - cd
   '24':
     description: sets FM
     models: *id001
@@ -262,7 +287,7 @@ values:
     models: *id001
     name: sirius
   '33':
-    description: 'sets DAB '
+    description: sets DAB
     models:
     - /616AE(Ether)
     - /818AE
@@ -270,10 +295,23 @@ values:
     - DHC-60.7
     - DHC-80.6
     - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
     - DRX-5
-    - DRX-5.1
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
     - DRX-7
+    - DRX-7.1
+    - DRX-7.3
     - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
     - DTR-30.4
     - DTR-40.4
     - DTR-40.5
@@ -299,16 +337,26 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR787
+    - TX-NR797
     - TX-NR818
     - TX-NR828(Ether)
     - TX-NR838(Ether)
     - TX-NR929
     - TX-RZ1100
     - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
     - TX-RZ800
     - TX-RZ810
     - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
     - TX-RZ900
+    - TX-RZ920
     name: dab
   '40':
     description: sets Universal PORT

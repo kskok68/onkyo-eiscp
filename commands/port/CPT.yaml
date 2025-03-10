@@ -1,0 +1,173 @@
+description: Universal PORT Operation Command
+name: universal-port
+values:
+  '0':
+    description: '0'
+    models: &id001
+    - DHC-40.1
+    - DHC-40.2
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
+    - DTM-40.4
+    - DTR-20.1
+    - DTR-20.2
+    - DTR-20.3
+    - DTR-30.1
+    - DTR-30.2
+    - DTR-30.3
+    - DTR-40.1
+    - DTR-40.2
+    - DTR-40.3
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC5509
+    - TX-8050(Ether)
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR3009
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR509(Ether)
+    - TX-NR579(Ether)
+    - TX-NR609(Ether)
+    - TX-NR708
+    - TX-NR709
+    - TX-NR807
+    - TX-NR808
+    - TX-NR809
+    - TX-SR707
+    name: '0'
+  '1':
+    description: '1'
+    models: *id001
+    name: '1'
+  '10':
+    description: 10/+10/Direct Tuning
+    models: *id001
+    name: tuning
+  '2':
+    description: '2'
+    models: *id001
+    name: '2'
+  '3':
+    description: '3'
+    models: *id001
+    name: '3'
+  '4':
+    description: '4'
+    models: *id001
+    name: '4'
+  '5':
+    description: '5'
+    models: *id001
+    name: '5'
+  '6':
+    description: '6'
+    models: *id001
+    name: '6'
+  '7':
+    description: '7'
+    models: *id001
+    name: '7'
+  '8':
+    description: '8'
+    models: *id001
+    name: '8'
+  '9':
+    description: '9'
+    models: *id001
+    name: '9'
+  DISP:
+    description: DISPLAY
+    models: *id001
+    name: disp
+  DOWN:
+    description: DOWN/Tuning Down
+    models: *id001
+    name: down
+  ENTER:
+    description: ENTER
+    models: *id001
+    name: enter
+  FF:
+    description: FF >>
+    models: *id001
+    name: ff
+  LEFT:
+    description: LEFT/Multicast Down
+    models: *id001
+    name: left
+  MODE:
+    description: MODE
+    models: *id001
+    name: mode
+  PAUSE:
+    description: PAUSE
+    models: *id001
+    name: pause
+  PLAY:
+    description: PLAY/BAND
+    models: *id001
+    name: play
+  PRSDN:
+    description: PRESET DOWN
+    models: *id001
+    name: prsdn
+  PRSUP:
+    description: PRESET UP
+    models: *id001
+    name: prsup
+  REPEAT:
+    description: REPEAT
+    models: *id001
+    name: repeat
+  RETURN:
+    description: RETURN
+    models: *id001
+    name: return
+  REW:
+    description: REW <<
+    models: *id001
+    name: rew
+  RIGHT:
+    description: RIGHT/Multicast Up
+    models: *id001
+    name: right
+  SETUP:
+    description: SETUP
+    models: *id001
+    name: setup
+  SHUFFLE:
+    description: SHUFFLE
+    models: *id001
+    name: shuffle
+  SKIP.F:
+    description: '>>I'
+    models: *id001
+    name: skip-f
+  SKIP.R:
+    description: I<<
+    models: *id001
+    name: skip-r
+  STOP:
+    description: STOP
+    models: *id001
+    name: stop
+  UP:
+    description: UP/Tuning Up
+    models: *id001
+    name: up

@@ -17,20 +17,36 @@ values:
     - DHC-80.6
     - DHC-9.9
     - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
     - DRX-2
     - DRX-2.1
+    - DRX-2.3
+    - DRX-2.4
     - DRX-3
     - DRX-3.1
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
     - DRX-4
-    - DRX-4.1
+    - DRX-4.2
+    - DRX-4.3
     - DRX-5
-    - DRX-5.1
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
     - DRX-7
+    - DRX-7.1
+    - DRX-7.3
     - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
     - DTC-7
     - DTC-9.1
     - DTC-9.4
     - DTC-9.8
+    - DTM-40.4
+    - DTM-5.9
     - DTM-7
     - DTR-10.5
     - DTR-20.1
@@ -127,7 +143,9 @@ values:
     - RDC-7
     - RDC-7(Ver2.0)
     - RDC-7.1
+    - TX-8050(Ether)
     - TX-8270(Ether)
+    - TX-8390
     - TX-DS787
     - TX-DS797
     - TX-DS898
@@ -156,16 +174,19 @@ values:
     - TX-NR5009
     - TX-NR5010
     - TX-NR509(Ether)
+    - TX-NR5100
     - TX-NR515
     - TX-NR525
     - TX-NR535(Ether)
     - TX-NR545(Ether)
     - TX-NR555(Ether)
     - TX-NR575(Ether)
-    - TX-NR575DAB(Ether)
     - TX-NR575E(Ether)
     - TX-NR579(Ether)
+    - TX-NR585(Ether)
+    - TX-NR595
     - TX-NR609(Ether)
+    - TX-NR6100
     - TX-NR616
     - TX-NR626
     - TX-NR636
@@ -173,14 +194,19 @@ values:
     - TX-NR656(Ether)
     - TX-NR676(Ether)
     - TX-NR676E(Ether)
+    - TX-NR686(Ether)
+    - TX-NR696
     - TX-NR708
     - TX-NR709
+    - TX-NR7100
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
     - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
+    - TX-NR787
+    - TX-NR797
     - TX-NR807
     - TX-NR808
     - TX-NR809
@@ -194,14 +220,22 @@ values:
     - TX-NR929
     - TX-RZ1100
     - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
     - TX-RZ610
     - TX-RZ620
+    - TX-RZ630
     - TX-RZ710
     - TX-RZ720
+    - TX-RZ730
+    - TX-RZ740
     - TX-RZ800
     - TX-RZ810
     - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
     - TX-RZ900
+    - TX-RZ920
     - TX-SA706
     - TX-SA706X
     - TX-SA805
@@ -252,9 +286,9 @@ values:
     - 1080p
     - 24fs
   08:
-    description: sets 4K Upcaling(HDMI Output Only) 4K(HDMI Output Only)
+    description: sets 4K Upscaling(HDMI Output Only) 4K(HDMI Output Only)
     models: *id001
-    name: 4k-upcaling
+    name: 4k-upscaling
   '13':
     description: sets 1680x720p
     models: *id001

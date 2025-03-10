@@ -1,0 +1,81 @@
+description: DAB Display Info (Universal Port Dock Only)
+name: dab-display-info
+values:
+  AT:
+    description: gets & display DAB Bitrate & Audio Type
+    models: &id001
+    - DHC-40.1
+    - DHC-40.2
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
+    - DTM-40.4
+    - DTR-20.1
+    - DTR-20.2
+    - DTR-20.3
+    - DTR-30.1
+    - DTR-30.2
+    - DTR-30.3
+    - DTR-40.1
+    - DTR-40.2
+    - DTR-40.3
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC5509
+    - TX-8050(Ether)
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR3009
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR509(Ether)
+    - TX-NR579(Ether)
+    - TX-NR609(Ether)
+    - TX-NR708
+    - TX-NR709
+    - TX-NR807
+    - TX-NR808
+    - TX-NR809
+    - TX-SR707
+    name: at
+  AT:mmmkbps/nnnnnn:
+    description: DAB Bitrate & Audio Type (m:Bitrate xxxkbps,n:Audio Type Stereo/Mono)
+    models: *id001
+  MF:
+    description: gets & display DAB Multicast Band & Freq Info
+    models: *id001
+    name: mf
+  MF:mmm/nnnn.nnMHz:
+    description: DAB Multiplex Band ID(mmm) & Freq(nnnn.nnMHz) Info
+    models: *id001
+  MN:
+    description: gets & display DAB Multicast Name
+    models: *id001
+    name: mn
+  MN:nnnnnnnnn:
+    description: DAB Multiplex Name (9 letters)
+    models: *id001
+  PT:
+    description: gets & display DAB Program Info
+    models: *id001
+    name: pt
+  PT:nnnnnnnn:
+    description: DAB Program Type (8 letters)
+    models: *id001
+  UP:
+    description: gets & display DAB Information Wrap-Around Up
+    models: *id001
+    name: up

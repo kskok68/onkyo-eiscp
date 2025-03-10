@@ -14,10 +14,23 @@ values:
     - DHC-80.6
     - DHC-9.9
     - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
     - DRX-5
-    - DRX-5.1
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
     - DRX-7
+    - DRX-7.1
+    - DRX-7.3
     - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
     - DTC-9.8
     - DTR-10.5
     - DTR-30.4
@@ -82,6 +95,8 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR787
+    - TX-NR797
     - TX-NR807
     - TX-NR808
     - TX-NR809
@@ -93,10 +108,18 @@ values:
     - TX-NR929
     - TX-RZ1100
     - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
     - TX-RZ800
     - TX-RZ810
     - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
     - TX-RZ900
+    - TX-RZ920
     - TX-SA805
     - TX-SA806X
     - TX-SA875
@@ -116,4 +139,3 @@ values:
   nnnnn:
     description: sets Directly Tuning Frequency (FM nnn.nn MHz / AM nnnnn kHz)
     models: *id001
-    name: freq-nnnnn

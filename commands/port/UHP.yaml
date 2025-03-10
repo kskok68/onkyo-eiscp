@@ -1,0 +1,58 @@
+description: HD Radio Channel Program Command (Universal Port Dock Only)
+name: hd-radio-channel-program
+values:
+  ? - 1
+    - 8
+  : description: sets directly HD Radio Channel Program
+    models: &id001
+    - DHC-40.1
+    - DHC-40.2
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
+    - DTM-40.4
+    - DTR-20.1
+    - DTR-20.2
+    - DTR-20.3
+    - DTR-30.1
+    - DTR-30.2
+    - DTR-30.3
+    - DTR-40.1
+    - DTR-40.2
+    - DTR-40.3
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC5509
+    - TX-8050(Ether)
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR3009
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR509(Ether)
+    - TX-NR579(Ether)
+    - TX-NR609(Ether)
+    - TX-NR708
+    - TX-NR709
+    - TX-NR807
+    - TX-NR808
+    - TX-NR809
+    - TX-SR707
+    name: directly
+  QSTN:
+    description: gets HD Radio Channel Program
+    models: *id001
+    name: query

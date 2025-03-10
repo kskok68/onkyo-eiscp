@@ -1,0 +1,292 @@
+description: MD Recorder Operation Command
+name: md-recorder
+values:
+  '1':
+    description: '1'
+    models: &id001
+    - /515AE(Ether)
+    - /616AE(Ether)
+    - /818AE
+    - DHC-40.1
+    - DHC-40.2
+    - DHC-60.5
+    - DHC-60.7
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
+    - DHC-80.6
+    - DHC-9.9
+    - DTC-9.8
+    - DTM-40.4
+    - DTM-5.9
+    - DTR-20.1
+    - DTR-20.2
+    - DTR-20.3
+    - DTR-20.4
+    - DTR-20.7
+    - DTR-30.1
+    - DTR-30.2
+    - DTR-30.3
+    - DTR-30.4
+    - DTR-30.5
+    - DTR-30.6
+    - DTR-30.7
+    - DTR-4.6
+    - DTR-4.9
+    - DTR-40.1
+    - DTR-40.2
+    - DTR-40.3
+    - DTR-40.4
+    - DTR-40.5
+    - DTR-40.6
+    - DTR-40.7
+    - DTR-5.6
+    - DTR-5.8
+    - DTR-5.9
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-50.4
+    - DTR-50.5
+    - DTR-50.6
+    - DTR-50.7
+    - DTR-6.6
+    - DTR-6.8
+    - DTR-6.9
+    - DTR-60.5
+    - DTR-60.6
+    - DTR-60.7
+    - DTR-7.6
+    - DTR-7.7
+    - DTR-7.8
+    - DTR-7.9
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-70.6
+    - DTR-8.8
+    - DTR-8.9
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - DTR-9.9
+    - DTX-5.8
+    - DTX-5.9
+    - DTX-7.7
+    - DTX-7.8
+    - DTX-8.8
+    - DTX-8.9
+    - DTX-9.9
+    - HM76
+    - HM86
+    - HT-R693(Ether)
+    - HT-R993(Ether)
+    - HT-RC550(Ether)
+    - HT-RC560(Ether)
+    - HT-RC660
+    - N-30AE
+    - N-50AE
+    - N-70AE
+    - NC50
+    - NR-365(Ether)
+    - NS-6130
+    - NS-6170
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC5509
+    - PR-SC5530
+    - PR-SC885
+    - PR-SC886
+    - R-N855
+    - TX-8050(Ether)
+    - TX-NA905
+    - TX-NA906
+    - TX-NA906X
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR1010
+    - TX-NR1030
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR3009
+    - TX-NR3010
+    - TX-NR3030
+    - TX-NR414(Ether)
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR5010
+    - TX-NR509(Ether)
+    - TX-NR515
+    - TX-NR525
+    - TX-NR535(Ether)
+    - TX-NR545(Ether)
+    - TX-NR579(Ether)
+    - TX-NR609(Ether)
+    - TX-NR616
+    - TX-NR626
+    - TX-NR636
+    - TX-NR646(Ether)
+    - TX-NR708
+    - TX-NR709
+    - TX-NR717(Ether)
+    - TX-NR727(Ether)
+    - TX-NR737(Ether)
+    - TX-NR747(Ether)
+    - TX-NR807
+    - TX-NR808
+    - TX-NR809
+    - TX-NR818
+    - TX-NR828(Ether)
+    - TX-NR838(Ether)
+    - TX-NR905
+    - TX-NR906
+    - TX-NR929
+    - TX-RZ800
+    - TX-RZ900
+    - TX-SA706
+    - TX-SA805
+    - TX-SA806
+    - TX-SA806X
+    - TX-SA875
+    - TX-SA876
+    - TX-SR703
+    - TX-SR705
+    - TX-SR706
+    - TX-SR707
+    - TX-SR803
+    - TX-SR804
+    - TX-SR805
+    - TX-SR806
+    - TX-SR875
+    - TX-SR876
+    name: '1'
+  10/0:
+    description: 10/0
+    models: *id001
+    name: 10-0
+  '2':
+    description: '2'
+    models: *id001
+    name: '2'
+  '3':
+    description: '3'
+    models: *id001
+    name: '3'
+  '4':
+    description: '4'
+    models: *id001
+    name: '4'
+  '5':
+    description: '5'
+    models: *id001
+    name: '5'
+  '6':
+    description: '6'
+    models: *id001
+    name: '6'
+  '7':
+    description: '7'
+    models: *id001
+    name: '7'
+  '8':
+    description: '8'
+    models: *id001
+    name: '8'
+  '9':
+    description: '9'
+    models: *id001
+    name: '9'
+  CLEAR:
+    description: CLEAR
+    models: *id001
+    name: clear
+  DISP:
+    description: DISPLAY
+    models: *id001
+    name: disp
+  EJECT:
+    description: EJECT
+    models: *id001
+    name: eject
+  ENTER:
+    description: ENTER
+    models: *id001
+    name: enter
+  FF:
+    description: FF >>
+    models: *id001
+    name: ff
+  GROUP:
+    description: GROUP
+    models: *id001
+    name: group
+  M.SCAN:
+    description: MUSIC SCAN
+    models: *id001
+    name: m-scan
+  MEMORY:
+    description: MEMORY
+    models: *id001
+    name: memory
+  NAME:
+    description: NAME
+    models: *id001
+    name: name
+  P.MODE:
+    description: PLAY MODE
+    models: *id001
+    name: p-mode
+  PAUSE:
+    description: PAUSE
+    models: *id001
+    name: pause
+  PLAY:
+    description: PLAY
+    models: *id001
+    name: play
+  POWER:
+    description: POWER ON/OFF
+    models: *id001
+    name: power
+  RANDOM:
+    description: RANDOM
+    models: *id001
+    name: random
+  REC:
+    description: REC
+    models: *id001
+    name: rec
+  REPEAT:
+    description: REPEAT
+    models: *id001
+    name: repeat
+  REW:
+    description: REW <<
+    models: *id001
+    name: rew
+  SCROLL:
+    description: SCROLL
+    models: *id001
+    name: scroll
+  SKIP.F:
+    description: '>>I'
+    models: *id001
+    name: skip-f
+  SKIP.R:
+    description: I<<
+    models: *id001
+    name: skip-r
+  STBY:
+    description: STANDBY
+    models: *id001
+    name: stby
+  STOP:
+    description: STOP
+    models: *id001
+    name: stop
+  nn/nnn:
+    description: --/---
+    models: *id001
