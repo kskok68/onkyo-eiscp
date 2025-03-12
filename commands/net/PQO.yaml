@@ -2,11 +2,10 @@ description: Reorder PlayQueue List (from Network Control Only)
 name: reorder-playqueue-list
 values:
   '{xx}{xx}yyyy':
-    description: 'xxxx : The Index number in the PlayQueue of the item to be moved
-      (0000-FFFF : 1st to 65536th Item [4 HEX digits] )
-
-      yyyy : The Index number in the PlayQueue of destination.(0000-FFFF : 1st to
-      65536th Item [4 HEX digits] )'
+    description: "xxxx : The Index number in the PlayQueue of the item to be moved\
+      \ (0000-FFFF : 1st to 65536th Item [4 HEX digits] )      \nyyyy : The Index\
+      \ number in the PlayQueue of destination.(0000-FFFF : 1st to 65536th Item [4\
+      \ HEX digits] )"
     models:
     - DRC-R1
     - DRC-R1.1
@@ -44,11 +43,12 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR656(Ether)
     - TX-NR676(Ether)
     - TX-NR676E(Ether)
-    - TX-NR686
+    - TX-NR686(Ether)
     - TX-NR696
     - TX-NR7100
     - TX-NR757
@@ -56,9 +56,9 @@ values:
     - TX-NR787
     - TX-NR797
     - TX-RZ1100
-    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
+    - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ710

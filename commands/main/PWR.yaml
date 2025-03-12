@@ -1,3 +1,5 @@
+aliases:
+- power
 description: System Power Command
 name: system-power
 values:
@@ -45,8 +47,6 @@ values:
     - DTC-9.1
     - DTC-9.4
     - DTC-9.8
-    - DTM-40.4
-    - DTM-5.9
     - DTM-7
     - DTR-10.5
     - DTR-20.1
@@ -132,7 +132,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5507
     - PR-SC5508
@@ -143,13 +142,11 @@ values:
     - RDC-7
     - RDC-7(Ver2.0)
     - RDC-7.1
-    - TX-8050(Ether)
     - TX-8270(Ether)
     - TX-8390
     - TX-DS787
     - TX-DS797
     - TX-DS898
-    - TX-DS989
     - TX-DS989
     - TX-NA900
     - TX-NA905
@@ -185,6 +182,7 @@ values:
     - TX-NR579(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR609(Ether)
     - TX-NR6100
     - TX-NR616
@@ -254,14 +252,64 @@ values:
     - TX-SR806
     - TX-SR875
     - TX-SR876
-    name: standby
+    name:
+    - standby
+    - 'off'
   '01':
     description: sets System On
     models: *id001
     name: 'on'
   ALL:
     description: All Zone(including Main Zone) Standby
-    models: *id001
+    models:
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-2.1
+    - DRX-2.3
+    - DRX-2.4
+    - DRX-3.1
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7.1
+    - DRX-7.3
+    - DRX-R1.1
+    - DRX-R1.3
+    - DTM-7
+    - TX-8270(Ether)
+    - TX-8390
+    - TX-NR474(Ether)
+    - TX-NR5100
+    - TX-NR575(Ether)
+    - TX-NR575E(Ether)
+    - TX-NR585(Ether)
+    - TX-NR595
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR676(Ether)
+    - TX-NR676E(Ether)
+    - TX-NR686(Ether)
+    - TX-NR696
+    - TX-NR7100
+    - TX-NR777
+    - TX-NR787
+    - TX-NR797
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ620
+    - TX-RZ630
+    - TX-RZ720
+    - TX-RZ730
+    - TX-RZ740
+    - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
+    - TX-RZ920
     name: all
   QSTN:
     description: gets the System Power Status

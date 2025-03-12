@@ -2,21 +2,23 @@ description: NET/USB List Info(All item, need processing XML data, for Network C
   Only)
 name: usb-list-info
 values:
-  BMP:
-    description: sets Jacket Art enable and Image type BMP
+  Izzzzll{xx}{xx}----:
+    description: 'select the listed item (from Network Control Only)
+
+      zzzz -> sequence number (0000-FFFF)
+
+      ll -> number of layer (00-FF)
+
+      xxxx -> index number (0000-FFFF : 1st to 65536th Item [4 HEX digits] )
+
+      ---- -> not used'
     models: &id001
     - /515AE(Ether)
     - /616AE(Ether)
     - /818AE
-    - DHC-40.1
-    - DHC-40.2
     - DHC-60.5
     - DHC-60.7
-    - DHC-80.1
-    - DHC-80.2
-    - DHC-80.3
     - DHC-80.6
-    - DHC-9.9
     - DRC-R1
     - DRC-R1.1
     - DRC-R1.3
@@ -42,138 +44,42 @@ values:
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
-    - DTC-7
-    - DTC-9.1
-    - DTC-9.4
-    - DTC-9.8
-    - DTM-40.4
-    - DTM-5.9
     - DTM-7
-    - DTR-10.5
-    - DTR-20.1
-    - DTR-20.2
-    - DTR-20.3
     - DTR-20.4
     - DTR-20.7
-    - DTR-30.1
-    - DTR-30.2
-    - DTR-30.3
     - DTR-30.4
     - DTR-30.5
     - DTR-30.6
     - DTR-30.7
-    - DTR-4.5
-    - DTR-4.6
-    - DTR-4.9
-    - DTR-40.1
-    - DTR-40.2
-    - DTR-40.3
     - DTR-40.4
     - DTR-40.5
     - DTR-40.6
     - DTR-40.7
-    - DTR-5.2
-    - DTR-5.3
-    - DTR-5.4
-    - DTR-5.5
-    - DTR-5.6
-    - DTR-5.8
-    - DTR-5.9
-    - DTR-50.1
-    - DTR-50.2
-    - DTR-50.3
     - DTR-50.4
     - DTR-50.5
     - DTR-50.6
     - DTR-50.7
-    - DTR-6.2
-    - DTR-6.3
-    - DTR-6.4
-    - DTR-6.5
-    - DTR-6.6
-    - DTR-6.8
-    - DTR-6.9
     - DTR-60.5
     - DTR-60.6
     - DTR-60.7
-    - DTR-7.1
-    - DTR-7.2
-    - DTR-7.3
-    - DTR-7.4
-    - DTR-7.6
-    - DTR-7.7
-    - DTR-7.8
-    - DTR-7.9
-    - DTR-70.1
-    - DTR-70.2
-    - DTR-70.3
     - DTR-70.4
     - DTR-70.6
-    - DTR-8.2
-    - DTR-8.3
-    - DTR-8.4
-    - DTR-8.8
-    - DTR-8.9
-    - DTR-80.1
-    - DTR-80.2
-    - DTR-80.3
-    - DTR-9.1
-    - DTR-9.9
-    - DTX-5.8
-    - DTX-5.9
-    - DTX-7
-    - DTX-7.7
-    - DTX-7.8
-    - DTX-8.8
-    - DTX-8.9
-    - DTX-9.9
-    - ETX-NA1000
     - HT-R693(Ether)
     - HT-R993(Ether)
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
-    - PR-SC5507
-    - PR-SC5508
-    - PR-SC5509
     - PR-SC5530
-    - PR-SC885
-    - PR-SC886
-    - RDC-7
-    - RDC-7(Ver2.0)
-    - RDC-7.1
     - TX-8270(Ether)
     - TX-8390
-    - TX-DS787
-    - TX-DS797
-    - TX-DS898
-    - TX-DS989
-    - TX-DS989
-    - TX-NA900
-    - TX-NA905
-    - TX-NA906
-    - TX-NA906X
-    - TX-NR1000
-    - TX-NR1007
-    - TX-NR1008
-    - TX-NR1009
     - TX-NR1010
     - TX-NR1030
-    - TX-NR3007
-    - TX-NR3008
-    - TX-NR3009
     - TX-NR3010
     - TX-NR3030
     - TX-NR414(Ether)
     - TX-NR474(Ether)
-    - TX-NR5000
-    - TX-NR5007
-    - TX-NR5008
-    - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
     - TX-NR5100
     - TX-NR515
     - TX-NR525
@@ -182,10 +88,9 @@ values:
     - TX-NR555(Ether)
     - TX-NR575(Ether)
     - TX-NR575E(Ether)
-    - TX-NR579(Ether)
     - TX-NR585(Ether)
     - TX-NR595
-    - TX-NR609(Ether)
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -194,10 +99,8 @@ values:
     - TX-NR656(Ether)
     - TX-NR676(Ether)
     - TX-NR676E(Ether)
-    - TX-NR686
+    - TX-NR686(Ether)
     - TX-NR696
-    - TX-NR708
-    - TX-NR709
     - TX-NR7100
     - TX-NR717(Ether)
     - TX-NR727(Ether)
@@ -207,21 +110,14 @@ values:
     - TX-NR777
     - TX-NR787
     - TX-NR797
-    - TX-NR807
-    - TX-NR808
-    - TX-NR809
     - TX-NR818
     - TX-NR828(Ether)
     - TX-NR838(Ether)
-    - TX-NR900
-    - TX-NR901
-    - TX-NR905
-    - TX-NR906
     - TX-NR929
     - TX-RZ1100
-    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
+    - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ710
@@ -235,49 +131,7 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - TX-SA706
-    - TX-SA706X
-    - TX-SA805
-    - TX-SA806
-    - TX-SA806X
-    - TX-SA875
-    - TX-SA876
-    - TX-SR702
-    - TX-SR703
-    - TX-SR705
-    - TX-SR706
-    - TX-SR707
-    - TX-SR803
-    - TX-SR804
-    - TX-SR805
-    - TX-SR806
-    - TX-SR875
-    - TX-SR876
-    name: jacket-art-enable-and-image-type-bmp
-  DIS:
-    description: sets Jacket Art disable
-    models: *id001
-    name: jacket-art-disable
-  ENA:
-    description: sets Jacket Art enable
-    models: *id001
-    name: jacket-art-enable
-  Izzzzll{xx}{xx}----:
-    description: 'select the listed item (from Network Control Only)
-
-      zzzz -> sequence number (0000-FFFF)
-
-      ll -> number of layer (00-FF)
-
-      xxxx -> index number (0000-FFFF : 1st to 65536th Item [4 HEX digits] )
-
-      ---- -> not used'
-    models: *id001
     name: izzzzll-xx-xx
-  LINK:
-    description: sets Jacket Art enable and Image type LINK
-    models: *id001
-    name: jacket-art-enable-and-image-type-link
   Lzzzzll{xx}{xx}yyyy:
     description: 'specify to get the listed data (from Network Control Only)
 
@@ -291,94 +145,86 @@ values:
       yyyy -> number of items (0000-FFFF : 1 to 65536 Items [4 HEX digits] )'
     models: *id001
     name: lzzzzll-xx-xx-yyyy
-  QSTN:
-    description: gets Jacket Art enable/disable
-    models: *id001
-    name: query
-  REQ:
-    description: gets Jacket Art data
-    models: *id001
-    name: req
-  UP:
-    description: sets Jacket Art Wrap-Around Up
-    models: *id001
-    name: up
-  tp{xx}{xx}{xx}{xx}{xx}{xx}:
-    description: 'NET/USB Jacket Art/Album Art Data
-
-      t-> Image type 0:BMP, 1:JPEG, 2:URL, n:No Image
-
-      p-> Packet flag 0:Start, 1:Next, 2:End, -:not used
-
-      xxxxxxxxxxxxxx -> Jacket/Album Art Data (variable length, 1024 ASCII HEX letters
-      max)'
-    models: *id001
-    name: tp-xx-xx-xx-xx-xx-xx
   tzzzzsurr<.....>:
-    description: 't -> response type ''X'' : XML
-
-      zzzz -> sequence number (0000-FFFF)
-
-      s -> status ''S'' : success, ''E'' : error
-
-      u -> UI type ''0'' : List, ''1'' : Menu, ''2'' : Playback, ''3'' : Popup, ''4''
-      : Keyboard, "5" : Menu List
-
-      rr -> reserved
-
-      <.....> : XML data ( [CR] and [LF] are removed )
-
-      If s=''S'',
-
-      <?xml version="1.0" encoding="UFT-8"?>
-
-      <response status="ok">
-
-      <items offset="xxxx" totalitems="yyyy" >
-
-      <item iconid="aa" title="bbb...bbb" url="ccc...ccc"/>
-
-      ...
-
-      <item iconid="aa" title="bbb...bbb" url="ccc...ccc"/>
-
-      </Items>
-
-      </response>
-
-      If s=''E'',
-
-      <?xml version="1.0" encoding="UFT-8"?>
-
-      <response status="fail">
-
-      <error code="[error code]" message="[error message]" />
-
-      </response>
-
-      xxxx : index of 1st item (0000-FFFF : 1st to 65536th Item [4 HEX digits] )
-
-      yyyy : number of items (0000-FFFF : 1 to 65536 Items [4 HEX digits] )
-
-      aa : Icon ID
-
-      ''29'' : Folder, ''2A'' : Folder X, ''2B'' : Server, ''2C'' : Server X, ''2D''
-      : Title, ''2E'' : Title X,
-
-      ''2F'' : Program, ''31'' : USB, ''36'' : Play, ''37'' : MultiAccount,
-
-      for Spotify
-
-      ''38'' : Account, ''39'' : Album, ''3A'' : Playlist, ''3B'' : Playlist-C, ''3C''
-      : starred,
-
-      ''3D'' : What''sNew, ''3E'' : Artist, ''3F'' : Track, ''40'' : unstarred, ''41''
-      : Play, ''43'' : Search, ''44'' : Folder
-
-      for AUPEO!
-
-      ''42'' : Program
-
-      bbb...bbb : Title'
-    models: *id001
+    description: "t -> response type 'X' : XML\nzzzz -> sequence number (0000-FFFF)\n\
+      s -> status 'S' : success, 'E' : error\nu -> UI type '0' : List, '1' : Menu,\
+      \ '2' : Playback, '3' : Popup, '4' : Keyboard, \"5\" : Menu List\nrr -> reserved\n\
+      <.....> : XML data ( [CR] and [LF] are removed )\n If s='S',\n <?xml version=\"\
+      1.0\" encoding=\"UFT-8\"?>\n <response status=\"ok\">\n   <items offset=\"xxxx\"\
+      \ totalitems=\"yyyy\" >\n     <item iconid=\"aa\" title=\"bbb...bbb\" url=\"\
+      ccc...ccc\"/>\n     ...\n     <item iconid=\"aa\" title=\"bbb...bbb\" url=\"\
+      ccc...ccc\"/>\n   </Items>\n </response>\n If s='E',\n <?xml version=\"1.0\"\
+      \ encoding=\"UFT-8\"?>\n <response status=\"fail\">\n   <error code=\"[error\
+      \ code]\" message=\"[error message]\" />\n </response>\nxxxx : index of 1st\
+      \ item (0000-FFFF : 1st to 65536th Item [4 HEX digits] )\nyyyy : number of items\
+      \ (0000-FFFF : 1 to 65536 Items [4 HEX digits] )\naa : Icon ID\n '29' : Folder,\
+      \ '2A' : Folder X, '2B' : Server, '2C' : Server X, '2D' : Title, '2E' : Title\
+      \ X,\n '2F' : Program, '31' : USB, '36' : Play, '37' : MultiAccount,\n for Spotify\n\
+      \ '38' : Account, '39' : Album, '3A' : Playlist, '3B' : Playlist-C, '3C' : starred,\n\
+      \ '3D' : What'sNew, '3E' : Artist, '3F' : Track, '40' : unstarred, '41' : Play,\
+      \ '43' : Search, '44' : Folder\n for AUPEO!\n '42' : Program\nbbb...bbb : Title"
+    models:
+    - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-2
+    - DRX-2.1
+    - DRX-2.3
+    - DRX-2.4
+    - DRX-3
+    - DRX-3.1
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4
+    - DRX-4.2
+    - DRX-4.3
+    - DRX-5
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7
+    - DRX-7.1
+    - DRX-7.3
+    - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
+    - DTM-7
+    - PR-RZ5100
+    - TX-8270(Ether)
+    - TX-8390
+    - TX-NR474(Ether)
+    - TX-NR5100
+    - TX-NR555(Ether)
+    - TX-NR575(Ether)
+    - TX-NR575E(Ether)
+    - TX-NR585(Ether)
+    - TX-NR595
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR656(Ether)
+    - TX-NR676(Ether)
+    - TX-NR676E(Ether)
+    - TX-NR686(Ether)
+    - TX-NR696
+    - TX-NR7100
+    - TX-NR757
+    - TX-NR777
+    - TX-NR787
+    - TX-NR797
+    - TX-RZ1100
+    - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ610
+    - TX-RZ620
+    - TX-RZ710
+    - TX-RZ720
+    - TX-RZ730
+    - TX-RZ740
+    - TX-RZ810
+    - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
+    - TX-RZ920
     name: tzzzzsurr

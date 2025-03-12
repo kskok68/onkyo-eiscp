@@ -2,16 +2,10 @@ description: Remove from PlayQueue List (from Network Control Only)
 name: remove-from-playqueue-list
 values:
   xyyyy:
-    description: 'x : Remove Type
-
-      0:Specify Line, (1:ALL)
-
-      In case of Remove Type=0
-
-      yyyy : The Index number in the PlayQueue of the item to delete(0000-FFFF : 1st
-      to 65536th Item [4 HEX digits] )
-
-      * Songs after the specified index number are gone up one by one.'
+    description: "x : Remove Type      \n  0:Specify Line, (1:ALL)    \n   In case\
+      \ of Remove Type=0\n   yyyy : The Index number in the PlayQueue of the item\
+      \ to delete(0000-FFFF : 1st to 65536th Item [4 HEX digits] )      \n  * Songs\
+      \ after the specified index number are gone up one by one."
     models:
     - DRC-R1
     - DRC-R1.1
@@ -49,11 +43,12 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR656(Ether)
     - TX-NR676(Ether)
     - TX-NR676E(Ether)
-    - TX-NR686
+    - TX-NR686(Ether)
     - TX-NR696
     - TX-NR7100
     - TX-NR757
@@ -61,9 +56,9 @@ values:
     - TX-NR787
     - TX-NR797
     - TX-RZ1100
-    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
+    - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ710

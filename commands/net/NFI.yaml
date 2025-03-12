@@ -3,80 +3,13 @@ name: usb-file-format-information
 values:
   QSTN:
     description: gets NET/USB File Info
-    models: &id001
-    - DRC-R1
-    - DRC-R1.1
-    - DRC-R1.3
-    - DRX-2
-    - DRX-2.1
-    - DRX-2.3
-    - DRX-2.4
-    - DRX-3
-    - DRX-3.1
-    - DRX-3.2
-    - DRX-3.3
-    - DRX-3.4
-    - DRX-4
-    - DRX-4.2
-    - DRX-4.3
-    - DRX-5
-    - DRX-5.2
-    - DRX-5.3
-    - DRX-5.4
-    - DRX-7
-    - DRX-7.1
-    - DRX-7.3
-    - DRX-R1
-    - DRX-R1.1
-    - DRX-R1.3
-    - DTM-7
-    - PR-RZ5100
-    - TX-8270(Ether)
-    - TX-8390
-    - TX-NR474(Ether)
-    - TX-NR5100
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR585(Ether)
-    - TX-NR595
-    - TX-NR6100
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686
-    - TX-NR696
-    - TX-NR7100
-    - TX-NR757
-    - TX-NR777
-    - TX-NR787
-    - TX-NR797
-    - TX-RZ1100
-    - TX-RZ30
-    - TX-RZ3100
-    - TX-RZ3400
-    - TX-RZ610
-    - TX-RZ620
-    - TX-RZ710
-    - TX-RZ720
-    - TX-RZ730
-    - TX-RZ740
-    - TX-RZ810
-    - TX-RZ820
-    - TX-RZ830
-    - TX-RZ840
-    - TX-RZ920
+    models: []
     name: query
   '{xx}...{xx}/yy...yy/zz...zz':
-    description: 'NET/USB File Info (variable-length, 64 ASCII letters max)
-
-      xx...xx format(filename extension)(UTF-8)
-
-      yy...yy sampling frequency(uncompressed) or bitrate(compressed)(UTF-8)
-
-      zz...zz quantization bit rate(UTF-8)
-
-      note: Separate each parameter with ''/'' and do not omit ''/'' even if there
-      is no information'
-    models: *id001
+    description: "NET/USB File Info (variable-length, 64 ASCII letters max)\nxx...xx\uFF1A\
+      format(filename extension)(UTF-8)\nyy...yy\uFF1Asampling frequency(uncompressed)\
+      \ or bitrate(compressed)(UTF-8)\nzz...zz\uFF1Aquantization bit rate(UTF-8)\n\
+      note: Separate each parameter with '/' and do not omit '/' even if there is\
+      \ no information"
+    models: []
     name: xx-xx-yy-yy-zz-zz

@@ -2,22 +2,13 @@ description: Add PlayQueue List in List View (from Network Control Only)
 name: add-playqueue-list-in-list-view
 values:
   '{xx}{xx}yzzzz':
-    description: 'xxxx : The Index number of the item to be added in the content list
-      (0000-FFFF : 1st to 65536th Item [4 HEX digits] )
-
-      * It is also possible to set folder.
-
-      y : Add Type
-
-      0:Now, 1:Next, 2:Last, (3:Specify Line)
-
-      In case of Add Type=3
-
-      zzzz : The Index number in the PlayQueue to be added(0000-FFFF : 1st to 65536th
-      Item [4 HEX digits] )
-
-      * Subsequent songs including songs with the specified index number are gone
-      down one by one.'
+    description: "xxxx : The Index number of the item to be added in the content list\
+      \ (0000-FFFF : 1st to 65536th Item [4 HEX digits] )       \n  * It is also possible\
+      \ to set folder.\ny : Add Type      \n  0:Now, 1:Next, 2:Last, (3:Specify Line)\
+      \    \n  In case of Add Type=3     \n  zzzz : The Index number in the PlayQueue\
+      \ to be added(0000-FFFF : 1st to 65536th Item [4 HEX digits] )\n  * Subsequent\
+      \ songs including songs with the specified index number are gone down one by\
+      \ one."
     models:
     - DRC-R1
     - DRC-R1.1
@@ -55,11 +46,12 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR656(Ether)
     - TX-NR676(Ether)
     - TX-NR676E(Ether)
-    - TX-NR686
+    - TX-NR686(Ether)
     - TX-NR696
     - TX-NR7100
     - TX-NR757
@@ -67,9 +59,9 @@ values:
     - TX-NR787
     - TX-NR797
     - TX-RZ1100
-    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
+    - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ710

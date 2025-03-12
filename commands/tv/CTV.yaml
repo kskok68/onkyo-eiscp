@@ -60,7 +60,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - Number2
     - PR-RZ5100
     - PR-SC5530
@@ -83,6 +82,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -97,6 +97,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -112,7 +113,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -124,7 +124,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: '0'
   '1':
     description: '1'
@@ -185,7 +184,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - Number3
     - PR-RZ5100
     - PR-SC5530
@@ -208,6 +206,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -222,6 +221,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -237,7 +237,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -249,7 +248,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: '1'
   '2':
     description: '2'
@@ -310,7 +308,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - Number4
     - PR-RZ5100
     - PR-SC5530
@@ -333,6 +330,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -347,6 +345,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -362,7 +361,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -374,7 +372,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: '2'
   '3':
     description: '3'
@@ -435,7 +432,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - Number5
     - PR-RZ5100
     - PR-SC5530
@@ -458,6 +454,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -472,6 +469,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -487,7 +485,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -499,7 +496,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: '3'
   '4':
     description: '4'
@@ -560,7 +556,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - Number6
     - PR-RZ5100
     - PR-SC5530
@@ -583,6 +578,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -597,6 +593,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -612,7 +609,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -624,7 +620,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: '4'
   '5':
     description: '5'
@@ -685,7 +680,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - Number7
     - PR-RZ5100
     - PR-SC5530
@@ -708,6 +702,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -722,6 +717,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -737,7 +733,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -749,7 +744,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: '5'
   '6':
     description: '6'
@@ -810,7 +804,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - Number8
     - PR-RZ5100
     - PR-SC5530
@@ -833,6 +826,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -847,6 +841,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -862,7 +857,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -874,7 +868,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: '6'
   '7':
     description: '7'
@@ -935,7 +928,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - Number9
     - PR-RZ5100
     - PR-SC5530
@@ -958,6 +950,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -972,6 +965,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -987,7 +981,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -999,7 +992,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: '7'
   '8':
     description: '8'
@@ -1061,7 +1053,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -1083,6 +1074,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -1097,6 +1089,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1112,7 +1105,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1124,7 +1116,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: '8'
   '9':
     description: '9'
@@ -1186,7 +1177,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -1208,6 +1198,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -1222,6 +1213,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1237,7 +1229,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1249,7 +1240,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: '9'
   A:
     description: A for CEC US:R,EU:R,JP:B
@@ -1312,7 +1302,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -1334,6 +1323,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -1348,6 +1338,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1363,7 +1354,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1375,7 +1365,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: a
   B:
     description: B for CEC US:G,EU:G,JP:R
@@ -1437,7 +1426,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -1459,6 +1447,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -1473,6 +1462,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1488,7 +1478,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1500,7 +1489,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: b
   C:
     description: C for CEC US:B,EU:Y,JP:G
@@ -1562,7 +1550,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -1584,6 +1571,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -1598,6 +1586,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1613,7 +1602,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1625,7 +1613,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: c
   CHDN:
     description: CH Down
@@ -1687,7 +1674,6 @@ values:
     - HT-RC560(Ether)
     - HT-RC660
     - Input Select
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -1709,6 +1695,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -1723,6 +1710,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1738,7 +1726,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1750,7 +1737,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: chdn
   CHUP:
     description: CH Up
@@ -1811,7 +1797,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - Previous Channel
@@ -1834,6 +1819,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -1848,6 +1834,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1863,7 +1850,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1875,7 +1861,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: chup
   CLEAR:
     description: Clear
@@ -1937,7 +1922,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -1959,6 +1943,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -1973,6 +1958,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1988,7 +1974,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2000,7 +1985,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: clear
   D:
     description: D for CEC US:Y,EU:B,JP:Y
@@ -2065,7 +2049,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -2087,6 +2070,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -2101,6 +2085,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2116,7 +2101,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2128,7 +2112,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     - Volume Up
     name: disp
   DOWN:
@@ -2190,7 +2173,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - Right
@@ -2213,6 +2195,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -2227,6 +2210,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2242,7 +2226,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2254,7 +2237,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: down
   ENTER:
     description: Enter
@@ -2316,7 +2298,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -2338,6 +2319,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -2352,6 +2334,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2367,7 +2350,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2379,7 +2361,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: enter
   GUIDE:
     description: Guide / Top Menu
@@ -2440,7 +2421,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - Power On Function
@@ -2463,6 +2443,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -2477,6 +2458,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2492,7 +2474,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2504,7 +2485,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: guide
   INPUT:
     description: Input
@@ -2565,7 +2545,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - Power
@@ -2588,6 +2567,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -2602,6 +2582,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2617,7 +2598,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2629,7 +2609,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: input
   LEFT:
     description: Cursor Left
@@ -2690,7 +2669,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - Root Menu
@@ -2713,6 +2691,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -2727,6 +2706,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2742,7 +2722,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2754,7 +2733,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: left
   MUTE:
     description: Muting
@@ -2815,7 +2793,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - Power Off Function
@@ -2838,6 +2815,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -2852,6 +2830,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2867,7 +2846,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2879,7 +2857,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: mute
   POWER:
     description: Power
@@ -2940,7 +2917,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -2962,6 +2938,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -2976,6 +2953,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2991,7 +2969,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3003,7 +2980,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     - Volume Down
     name: power
   PREV:
@@ -3066,7 +3042,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -3088,6 +3063,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -3102,6 +3078,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3117,7 +3094,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3129,7 +3105,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: prev
   PWROFF:
     description: Standby
@@ -3191,7 +3166,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -3213,6 +3187,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -3227,6 +3202,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3242,7 +3218,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3254,7 +3229,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: pwroff
   PWRON:
     description: PowerOn
@@ -3316,7 +3290,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -3338,6 +3311,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -3352,6 +3326,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3367,7 +3342,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3379,7 +3353,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: pwron
   RETURN:
     description: Return
@@ -3440,7 +3413,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - Number1
     - PR-RZ5100
     - PR-SC5530
@@ -3463,6 +3435,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -3477,6 +3450,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3492,7 +3466,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3504,7 +3477,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: return
   RIGHT:
     description: Cursor Right
@@ -3565,7 +3537,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - SETUP MENU
@@ -3588,6 +3559,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -3602,6 +3574,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3617,7 +3590,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3629,7 +3601,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: right
   SETUP:
     description: Setup
@@ -3690,7 +3661,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - Number0 or 10
     - PR-RZ5100
     - PR-SC5530
@@ -3713,6 +3683,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -3727,6 +3698,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3742,7 +3714,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3754,7 +3725,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: setup
   UP:
     description: Cursor Up
@@ -3816,7 +3786,6 @@ values:
     - HT-RC560(Ether)
     - HT-RC660
     - Left
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -3838,6 +3807,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -3852,6 +3822,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3867,7 +3838,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3879,7 +3849,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: up
   VLDN:
     description: Volume Down
@@ -3941,7 +3910,6 @@ values:
     - HT-RC550(Ether)
     - HT-RC560(Ether)
     - HT-RC660
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -3963,6 +3931,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -3977,6 +3946,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3992,7 +3962,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -4004,7 +3973,6 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: vldn
   VLUP:
     description: Volume Up
@@ -4066,7 +4034,6 @@ values:
     - HT-RC560(Ether)
     - HT-RC660
     - Mute
-    - NR-365(Ether)
     - PR-RZ5100
     - PR-SC5530
     - TX-8270(Ether)
@@ -4088,6 +4055,7 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR616
     - TX-NR626
@@ -4102,6 +4070,7 @@ values:
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
+    - TX-NR747(Ether)
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -4117,7 +4086,6 @@ values:
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
-    - TX-RZ700(Ether)
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -4129,5 +4097,4 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
-    - VSX-934
     name: vlup

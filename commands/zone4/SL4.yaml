@@ -41,36 +41,47 @@ values:
     - aux1
   '04':
     description: sets VIDEO5, AUX2, GAME2
-    models: *id001
+    models:
+    - DTR-70.1
+    - DTR-70.4
+    - DTR-80.1
     name:
     - video5
     - aux2
     - game2
   '05':
     description: sets VIDEO6, PC
-    models: *id001
+    models:
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-80.2
+    - DTR-80.3
     name:
     - video6
     - pc
   '06':
     description: sets VIDEO7
-    models: *id001
+    models: []
     name: video7
   '07':
     description: sets Hidden1, EXTRA1
-    models: *id001
+    models: &id002
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-80.3
     name:
     - hidden1
     - extra1
   08:
     description: sets Hidden2, EXTRA2
-    models: *id001
+    models: *id002
     name:
     - hidden2
     - extra2
   09:
     description: sets Hidden3, EXTRA3
-    models: *id001
+    models: *id002
     name:
     - hidden3
     - extra3
@@ -90,7 +101,7 @@ values:
     - tape
   '21':
     description: sets TAPE2
-    models: *id001
+    models: []
     name: tape2
   '22':
     description: sets PHONO
@@ -136,45 +147,60 @@ values:
     - usb
   2A:
     description: sets USB(Rear)
-    models: *id001
+    models:
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
     name: usb
   2B:
     description: sets NETWORK, NET
-    models: *id001
+    models: *id002
     name:
     - network
     - net
   2C:
     description: sets USB(toggle)
-    models: *id001
+    models: *id002
     name: usb
   2D:
     description: Airplay
-    models: *id001
+    models: []
     name: 2d
   2E:
     description: sets Bluetooth
-    models: *id001
+    models: []
     name: bluetooth
   '30':
     description: sets MULTI CH
-    models: *id001
+    models: []
     name: multi-ch
   '31':
     description: sets XM
-    models: *id001
+    models: []
     name: xm
   '32':
     description: sets SIRIUS
-    models: *id001
+    models:
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-80.1
+    - DTR-80.2
     name: sirius
   '33':
-    description: sets DAB
-    models: *id001
+    description: 'sets DAB '
+    models: []
     name: dab
   '40':
     description: sets Universal PORT
-    models: *id001
+    models:
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
     name: universal-port
   '80':
     description: sets SOURCE
@@ -182,7 +208,7 @@ values:
     name: source
   DOWN:
     description: sets Selector Position Wrap-Around Down
-    models: *id001
+    models: *id002
     name: down
   QSTN:
     description: gets The Selector Position
@@ -190,5 +216,5 @@ values:
     name: query
   UP:
     description: sets Selector Position Wrap-Around Up
-    models: *id001
+    models: *id002
     name: up

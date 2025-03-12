@@ -15,7 +15,7 @@ values:
   ? - 0
     - 80
   : description: Volume Level 0 - 80 ( In hexadecimal representation)
-    models: *id001
+    models: []
   UP:
     description: sets Volume Level Up
     models: *id001

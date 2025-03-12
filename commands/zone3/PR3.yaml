@@ -33,7 +33,6 @@ values:
     - DRX-R1.1
     - DRX-R1.3
     - DTC-9.8
-    - DTR-10.5
     - DTR-30.4
     - DTR-40.4
     - DTR-40.5
@@ -64,7 +63,6 @@ values:
     - DTX-8.8
     - DTX-8.9
     - DTX-9.9
-    - ETX-NA1000
     - PR-RZ5100
     - PR-SC5507
     - PR-SC5508
@@ -72,11 +70,9 @@ values:
     - PR-SC5530
     - PR-SC885
     - PR-SC886
-    - RDC-7.1
     - TX-NA905
     - TX-NA906
     - TX-NA906X
-    - TX-NR1000
     - TX-NR1007
     - TX-NR1008
     - TX-NR1009
@@ -87,12 +83,12 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
     - TX-NR616
+    - TX-NR7100
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
@@ -128,12 +124,10 @@ values:
     - TX-SR805
     - TX-SR875
     - TX-SR876
-    name: no-1-40
   ? - 1
     - 30
   : description: sets Preset No. 1 - 30 ( In hexadecimal representation)
-    models: *id001
-    name: no-1-30
+    models: []
   UP:
     description: sets Preset No. Wrap-Around Up
     models: *id001

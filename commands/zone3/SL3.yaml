@@ -3,6 +3,100 @@ name: selector
 values:
   '00':
     description: sets VIDEO1, VCR/DVR, STB/DVR
+    models:
+    - /616AE(Ether)
+    - /818AE
+    - DHC-60.5
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
+    - DHC-80.6
+    - DHC-9.9
+    - DTC-9.8
+    - DTR-10.5
+    - DTR-30.4
+    - DTR-40.4
+    - DTR-40.5
+    - DTR-40.6
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-50.4
+    - DTR-50.5
+    - DTR-50.6
+    - DTR-60.5
+    - DTR-60.6
+    - DTR-7.8
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-70.6
+    - DTR-8.8
+    - DTR-8.9
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - DTR-9.9
+    - DTX-7.8
+    - DTX-8.8
+    - DTX-8.9
+    - DTX-9.9
+    - ETX-NA1000
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC5509
+    - PR-SC5530
+    - PR-SC885
+    - PR-SC886
+    - RDC-7.1
+    - TX-NA905
+    - TX-NA906
+    - TX-NA906X
+    - TX-NR1000
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR1010
+    - TX-NR1030
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR3009
+    - TX-NR3010
+    - TX-NR3030
+    - TX-NR5000
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR5010
+    - TX-NR616
+    - TX-NR717(Ether)
+    - TX-NR727(Ether)
+    - TX-NR737(Ether)
+    - TX-NR807
+    - TX-NR808
+    - TX-NR809
+    - TX-NR818
+    - TX-NR828(Ether)
+    - TX-NR838(Ether)
+    - TX-NR905
+    - TX-NR906
+    - TX-NR929
+    - TX-SA805
+    - TX-SA806X
+    - TX-SA875
+    - TX-SA876
+    - TX-SR805
+    - TX-SR875
+    - TX-SR876
+    name:
+    - video1
+    - vcr
+    - dvr
+    - stb
+    - dvr
+  '01':
+    description: sets VIDEO2, CBL/SAT
     models: &id001
     - /616AE(Ether)
     - /818AE
@@ -92,6 +186,7 @@ values:
     - TX-NR5009
     - TX-NR5010
     - TX-NR616
+    - TX-NR7100
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
@@ -128,15 +223,6 @@ values:
     - TX-SR875
     - TX-SR876
     name:
-    - video1
-    - vcr
-    - dvr
-    - stb
-    - dvr
-  '01':
-    description: sets VIDEO2, CBL/SAT
-    models: *id001
-    name:
     - video2
     - cbl
     - sat
@@ -151,42 +237,325 @@ values:
     - game1
   '03':
     description: sets VIDEO4, AUX1(AUX)
-    models: *id001
+    models:
+    - /818AE
+    - DHC-60.5
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
+    - DHC-80.6
+    - DHC-9.9
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
+    - DTC-9.8
+    - DTR-10.5
+    - DTR-30.4
+    - DTR-40.4
+    - DTR-40.5
+    - DTR-40.6
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-50.4
+    - DTR-50.5
+    - DTR-50.6
+    - DTR-60.5
+    - DTR-60.6
+    - DTR-7.8
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-70.6
+    - DTR-8.8
+    - DTR-8.9
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - DTR-9.9
+    - DTX-7.8
+    - DTX-8.8
+    - DTX-8.9
+    - DTX-9.9
+    - ETX-NA1000
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC5509
+    - PR-SC5530
+    - PR-SC885
+    - PR-SC886
+    - RDC-7.1
+    - TX-NA905
+    - TX-NA906
+    - TX-NA906X
+    - TX-NR1000
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR1010
+    - TX-NR1030
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR3009
+    - TX-NR3010
+    - TX-NR3030
+    - TX-NR5000
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR5010
+    - TX-NR7100
+    - TX-NR717(Ether)
+    - TX-NR787
+    - TX-NR797
+    - TX-NR807
+    - TX-NR808
+    - TX-NR809
+    - TX-NR818
+    - TX-NR828(Ether)
+    - TX-NR838(Ether)
+    - TX-NR905
+    - TX-NR906
+    - TX-NR929
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
+    - TX-SA805
+    - TX-SA806X
+    - TX-SA875
+    - TX-SA876
+    - TX-SR805
+    - TX-SR875
+    - TX-SR876
     name:
     - video4
     - aux1
   '04':
     description: sets VIDEO5, AUX2, GAME2
-    models: *id001
+    models:
+    - /818AE
+    - DHC-60.5
+    - DHC-80.1
+    - DHC-9.9
+    - DTC-9.8
+    - DTR-10.5
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-50.4
+    - DTR-60.5
+    - DTR-7.8
+    - DTR-70.1
+    - DTR-70.4
+    - DTR-8.8
+    - DTR-8.9
+    - DTR-80.1
+    - DTR-9.9
+    - DTX-7.8
+    - DTX-8.8
+    - DTX-8.9
+    - DTX-9.9
+    - ETX-NA1000
+    - PR-SC5507
+    - PR-SC885
+    - PR-SC886
+    - RDC-7.1
+    - TX-NA905
+    - TX-NA906
+    - TX-NA906X
+    - TX-NR1000
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR1010
+    - TX-NR3007
+    - TX-NR3010
+    - TX-NR5000
+    - TX-NR5007
+    - TX-NR5010
+    - TX-NR807
+    - TX-NR808
+    - TX-NR809
+    - TX-NR818
+    - TX-NR905
+    - TX-NR906
+    - TX-NR929
+    - TX-SA805
+    - TX-SA806X
+    - TX-SA875
+    - TX-SA876
+    - TX-SR805
+    - TX-SR875
+    - TX-SR876
     name:
     - video5
     - aux2
     - game2
   '05':
     description: sets VIDEO6, PC
-    models: *id001
+    models:
+    - /616AE(Ether)
+    - /818AE
+    - DHC-60.5
+    - DHC-60.7
+    - DHC-80.2
+    - DHC-80.3
+    - DHC-80.6
+    - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
+    - DRX-5
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7
+    - DRX-7.1
+    - DRX-7.3
+    - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
+    - DTR-10.5
+    - DTR-30.4
+    - DTR-40.4
+    - DTR-40.5
+    - DTR-40.6
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-50.4
+    - DTR-50.5
+    - DTR-50.6
+    - DTR-50.7
+    - DTR-60.5
+    - DTR-60.6
+    - DTR-60.7
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-70.6
+    - DTR-80.2
+    - DTR-80.3
+    - ETX-NA1000
+    - PR-RZ5100
+    - PR-SC5508
+    - PR-SC5509
+    - PR-SC5530
+    - RDC-7.1
+    - TX-NR1000
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR1010
+    - TX-NR1030
+    - TX-NR3008
+    - TX-NR3009
+    - TX-NR3010
+    - TX-NR3030
+    - TX-NR5000
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR5010
+    - TX-NR616
+    - TX-NR7100
+    - TX-NR717(Ether)
+    - TX-NR727(Ether)
+    - TX-NR737(Ether)
+    - TX-NR787
+    - TX-NR797
+    - TX-NR808
+    - TX-NR809
+    - TX-NR818
+    - TX-NR828(Ether)
+    - TX-NR838(Ether)
+    - TX-NR929
+    - TX-RZ1100
+    - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
+    - TX-RZ800
+    - TX-RZ810
+    - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
+    - TX-RZ900
+    - TX-RZ920
     name:
     - video6
     - pc
   '06':
     description: sets VIDEO7
-    models: *id001
+    models: &id004
+    - DTR-10.5
+    - ETX-NA1000
+    - RDC-7.1
+    - TX-NR1000
+    - TX-NR5000
     name: video7
   '07':
     description: sets Hidden1, EXTRA1
-    models: *id001
+    models: &id002
+    - DHC-60.5
+    - DHC-60.7
+    - DHC-80.3
+    - DHC-80.6
+    - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
+    - DRX-5
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7
+    - DRX-7.1
+    - DRX-7.3
+    - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
+    - DTR-30.4
+    - DTR-40.4
+    - DTR-40.5
+    - DTR-40.6
+    - DTR-50.3
+    - DTR-50.4
+    - DTR-50.5
+    - DTR-50.6
+    - DTR-50.7
+    - DTR-60.5
+    - DTR-60.6
+    - DTR-60.7
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-70.6
+    - DTR-80.3
+    - PR-SC5509
+    - TX-NR1009
+    - TX-NR3009
+    - TX-NR5009
+    - TX-NR809
     name:
     - hidden1
     - extra1
   08:
     description: sets Hidden2, EXTRA2
-    models: *id001
+    models: *id002
     name:
     - hidden2
     - extra2
   09:
     description: sets Hidden3, EXTRA3
-    models: *id001
+    models: *id002
     name:
     - hidden3
     - extra3
@@ -196,23 +565,227 @@ values:
     name: dvd
   '11':
     description: sets STRM BOX
-    models: *id001
+    models: &id003
+    - DHC-60.7
+    - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
+    - DRX-5
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7
+    - DRX-7.1
+    - DRX-7.3
+    - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
+    - DTR-50.7
+    - DTR-60.7
+    - PR-RZ5100
+    - TX-NR7100
+    - TX-NR787
+    - TX-NR797
+    - TX-RZ1100
+    - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
+    - TX-RZ800
+    - TX-RZ810
+    - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
+    - TX-RZ900
+    - TX-RZ920
     name: strm-box
   '12':
     description: sets TV
-    models: *id001
+    models: *id003
     name: tv
   '20':
     description: sets TAPE(1)
-    models: *id001
+    models:
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-9.9
+    - DTC-9.8
+    - DTR-10.5
+    - DTR-50.1
+    - DTR-7.8
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-8.8
+    - DTR-8.9
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-9.9
+    - DTX-7.8
+    - DTX-8.8
+    - DTX-8.9
+    - DTX-9.9
+    - ETX-NA1000
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC885
+    - PR-SC886
+    - RDC-7.1
+    - TX-NA905
+    - TX-NA906
+    - TX-NA906X
+    - TX-NR1000
+    - TX-NR1007
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR5000
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR807
+    - TX-NR905
+    - TX-NR906
+    - TX-SA805
+    - TX-SA806X
+    - TX-SA875
+    - TX-SA876
+    - TX-SR805
+    - TX-SR875
+    - TX-SR876
     name: tape
   '21':
     description: sets TAPE2
-    models: *id001
+    models: *id004
     name: tape2
   '22':
     description: sets PHONO
-    models: *id001
+    models:
+    - /818AE
+    - DHC-60.5
+    - DHC-60.7
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
+    - DHC-80.6
+    - DHC-9.9
+    - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
+    - DRX-5
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7
+    - DRX-7.1
+    - DRX-7.3
+    - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
+    - DTC-9.8
+    - DTR-10.5
+    - DTR-40.4
+    - DTR-40.5
+    - DTR-40.6
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-50.4
+    - DTR-50.5
+    - DTR-50.6
+    - DTR-50.7
+    - DTR-60.5
+    - DTR-60.6
+    - DTR-60.7
+    - DTR-7.8
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-70.6
+    - DTR-8.8
+    - DTR-8.9
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - DTR-9.9
+    - DTX-7.8
+    - DTX-8.8
+    - DTX-8.9
+    - DTX-9.9
+    - ETX-NA1000
+    - PR-RZ5100
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC5509
+    - PR-SC5530
+    - PR-SC885
+    - PR-SC886
+    - RDC-7.1
+    - TX-NA905
+    - TX-NA906
+    - TX-NA906X
+    - TX-NR1000
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR1010
+    - TX-NR1030
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR3009
+    - TX-NR3010
+    - TX-NR3030
+    - TX-NR5000
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR5010
+    - TX-NR7100
+    - TX-NR717(Ether)
+    - TX-NR727(Ether)
+    - TX-NR737(Ether)
+    - TX-NR787
+    - TX-NR797
+    - TX-NR807
+    - TX-NR808
+    - TX-NR809
+    - TX-NR818
+    - TX-NR828(Ether)
+    - TX-NR838(Ether)
+    - TX-NR905
+    - TX-NR906
+    - TX-NR929
+    - TX-RZ1100
+    - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
+    - TX-RZ800
+    - TX-RZ810
+    - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
+    - TX-RZ900
+    - TX-RZ920
+    - TX-SA805
+    - TX-SA806X
+    - TX-SA875
+    - TX-SA876
+    - TX-SR805
+    - TX-SR875
+    - TX-SR876
     name: phono
   '23':
     description: sets CD, TV/CD
@@ -235,64 +808,87 @@ values:
     name: tuner
   '27':
     description: sets MUSIC SERVER, P4S, DLNA
-    models: *id001
+    models: &id005
+    - /616AE(Ether)
+    - /818AE
+    - DHC-60.5
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
+    - DTR-10.5
+    - DTR-30.4
+    - DTR-40.4
+    - DTR-40.5
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-50.4
+    - DTR-50.5
+    - DTR-60.5
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-8.8
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - DTR-9.9
+    - DTX-8.8
+    - DTX-9.9
+    - ETX-NA1000
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC5509
+    - RDC-7.1
+    - TX-NA905
+    - TX-NA906
+    - TX-NA906X
+    - TX-NR1000
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR1010
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR3009
+    - TX-NR3010
+    - TX-NR5000
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR5010
+    - TX-NR616
+    - TX-NR717(Ether)
+    - TX-NR727(Ether)
+    - TX-NR807
+    - TX-NR808
+    - TX-NR809
+    - TX-NR818
+    - TX-NR828(Ether)
+    - TX-NR905
+    - TX-NR906
+    - TX-NR929
     name:
     - music-server
     - p4s
     - dlna
   '28':
     description: sets INTERNET RADIO, iRadio Favorite
-    models: *id001
+    models: *id005
     name:
     - internet-radio
     - iradio-favorite
   '29':
     description: sets USB/USB(Front)
-    models: *id001
-    name:
-    - usb
-    - usb
-  2A:
-    description: sets USB(Rear)
-    models: *id001
-    name: usb
-  2B:
-    description: sets NETWORK, NET
-    models: *id001
-    name:
-    - network
-    - net
-  2C:
-    description: sets USB(toggle)
-    models: *id001
-    name: usb
-  2D:
-    description: sets Airplay
-    models: *id001
-    name: airplay
-  2E:
-    description: sets Bluetooth
-    models: *id001
-    name: bluetooth
-  '30':
-    description: sets MULTI CH
-    models: *id001
-    name: multi-ch
-  '31':
-    description: sets XM
-    models: *id001
-    name: xm
-  '32':
-    description: sets SIRIUS
-    models: *id001
-    name: sirius
-  '33':
-    description: sets DAB
     models:
     - /616AE(Ether)
     - /818AE
     - DHC-60.5
     - DHC-60.7
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
     - DHC-80.6
     - DRC-R1
     - DRC-R1.1
@@ -316,6 +912,9 @@ values:
     - DTR-40.4
     - DTR-40.5
     - DTR-40.6
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
     - DTR-50.4
     - DTR-50.5
     - DTR-50.6
@@ -323,22 +922,166 @@ values:
     - DTR-60.5
     - DTR-60.6
     - DTR-60.7
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
     - DTR-70.4
     - DTR-70.6
+    - DTR-8.8
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - DTR-9.9
+    - DTX-8.8
+    - DTX-9.9
     - PR-RZ5100
+    - PR-SC5507
+    - PR-SC5508
     - PR-SC5509
     - PR-SC5530
+    - TX-NA905
+    - TX-NA906
+    - TX-NA906X
+    - TX-NR1008
+    - TX-NR1009
     - TX-NR1010
     - TX-NR1030
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR3009
     - TX-NR3010
     - TX-NR3030
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
     - TX-NR5010
     - TX-NR616
+    - TX-NR7100
     - TX-NR717(Ether)
     - TX-NR727(Ether)
     - TX-NR737(Ether)
     - TX-NR787
     - TX-NR797
+    - TX-NR808
+    - TX-NR809
+    - TX-NR818
+    - TX-NR828(Ether)
+    - TX-NR838(Ether)
+    - TX-NR905
+    - TX-NR906
+    - TX-NR929
+    - TX-RZ1100
+    - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
+    - TX-RZ800
+    - TX-RZ810
+    - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
+    - TX-RZ900
+    - TX-RZ920
+    name:
+    - usb
+    - usb
+  2A:
+    description: sets USB(Rear)
+    models:
+    - /616AE(Ether)
+    - /818AE
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
+    - DTR-30.4
+    - DTR-40.4
+    - DTR-50.3
+    - DTR-50.4
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC5509
+    - TX-NR1009
+    - TX-NR1010
+    - TX-NR3009
+    - TX-NR3010
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR5010
+    - TX-NR616
+    - TX-NR717(Ether)
+    - TX-NR809
+    - TX-NR818
+    name: usb
+  2B:
+    description: sets NETWORK, NET
+    models: &id006
+    - /616AE(Ether)
+    - /818AE
+    - DHC-60.5
+    - DHC-60.7
+    - DHC-80.3
+    - DHC-80.6
+    - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
+    - DRX-5
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7
+    - DRX-7.1
+    - DRX-7.3
+    - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
+    - DTR-30.4
+    - DTR-40.4
+    - DTR-40.5
+    - DTR-40.6
+    - DTR-50.3
+    - DTR-50.4
+    - DTR-50.5
+    - DTR-50.6
+    - DTR-50.7
+    - DTR-60.5
+    - DTR-60.6
+    - DTR-60.7
+    - DTR-70.3
+    - DTR-70.4
+    - DTR-70.6
+    - DTR-80.3
+    - PR-RZ5100
+    - PR-SC5509
+    - PR-SC5530
+    - TX-NR1009
+    - TX-NR1010
+    - TX-NR1030
+    - TX-NR3009
+    - TX-NR3010
+    - TX-NR3030
+    - TX-NR5009
+    - TX-NR5010
+    - TX-NR616
+    - TX-NR7100
+    - TX-NR717(Ether)
+    - TX-NR727(Ether)
+    - TX-NR737(Ether)
+    - TX-NR787
+    - TX-NR797
+    - TX-NR809
     - TX-NR818
     - TX-NR828(Ether)
     - TX-NR838(Ether)
@@ -357,10 +1100,191 @@ values:
     - TX-RZ840
     - TX-RZ900
     - TX-RZ920
+    name:
+    - network
+    - net
+  2C:
+    description: sets USB(toggle)
+    models: *id006
+    name: usb
+  2D:
+    description: sets Airplay
+    models:
+    - /616AE(Ether)
+    - /818AE
+    - TX-NR616
+    - TX-NR818
+    name: airplay
+  2E:
+    description: sets Bluetooth
+    models:
+    - DRC-R1.3
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.3
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7.3
+    - DRX-R1.3
+    - PR-RZ5100
+    - PR-SC5530
+    - TX-NR1030
+    - TX-NR3030
+    - TX-NR7100
+    - TX-NR737(Ether)
+    - TX-NR787
+    - TX-NR797
+    - TX-NR838(Ether)
+    - TX-RZ1100
+    - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
+    - TX-RZ800
+    - TX-RZ810
+    - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
+    - TX-RZ900
+    - TX-RZ920
+    name: bluetooth
+  '30':
+    description: sets MULTI CH
+    models: []
+    name: multi-ch
+  '31':
+    description: sets XM
+    models:
+    - DHC-9.9
+    - DTC-9.8
+    - DTR-7.8
+    - DTR-8.8
+    - DTR-8.9
+    - DTR-9.9
+    - DTX-7.8
+    - DTX-8.8
+    - DTX-8.9
+    - DTX-9.9
+    - PR-SC885
+    - PR-SC886
+    - TX-NA905
+    - TX-NA906
+    - TX-NA906X
+    - TX-NR905
+    - TX-NR906
+    - TX-SA805
+    - TX-SA806X
+    - TX-SA875
+    - TX-SA876
+    - TX-SR805
+    - TX-SR875
+    - TX-SR876
+    name: xm
+  '32':
+    description: sets SIRIUS
+    models:
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-9.9
+    - DTC-9.8
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-7.8
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-8.8
+    - DTR-8.9
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-9.9
+    - DTX-7.8
+    - DTX-8.8
+    - DTX-8.9
+    - DTX-9.9
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC885
+    - PR-SC886
+    - TX-NA905
+    - TX-NA906
+    - TX-NA906X
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR807
+    - TX-NR808
+    - TX-NR905
+    - TX-NR906
+    - TX-SA805
+    - TX-SA806X
+    - TX-SA875
+    - TX-SA876
+    - TX-SR805
+    - TX-SR875
+    - TX-SR876
+    name: sirius
+  '33':
+    description: 'sets DAB '
+    models:
+    - DRC-R1.3
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.2
+    - DRX-4.3
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7.3
+    - DRX-R1.3
+    - TX-NR7100
+    - TX-NR787
+    - TX-NR797
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ630
+    - TX-RZ730
+    - TX-RZ740
+    - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
     name: dab
   '40':
     description: sets Universal PORT
-    models: *id001
+    models:
+    - DHC-80.1
+    - DHC-80.2
+    - DHC-80.3
+    - DTR-50.1
+    - DTR-50.2
+    - DTR-50.3
+    - DTR-70.1
+    - DTR-70.2
+    - DTR-70.3
+    - DTR-80.1
+    - DTR-80.2
+    - DTR-80.3
+    - PR-SC5507
+    - PR-SC5508
+    - PR-SC5509
+    - TX-NR1007
+    - TX-NR1008
+    - TX-NR1009
+    - TX-NR3007
+    - TX-NR3008
+    - TX-NR3009
+    - TX-NR5007
+    - TX-NR5008
+    - TX-NR5009
+    - TX-NR807
+    - TX-NR808
+    - TX-NR809
     name: universal-port
   '80':
     description: sets SOURCE
@@ -368,7 +1292,7 @@ values:
     name: source
   DOWN:
     description: sets Selector Position Wrap-Around Down
-    models: *id001
+    models: *id006
     name: down
   QSTN:
     description: gets The Selector Position
@@ -376,5 +1300,5 @@ values:
     name: query
   UP:
     description: sets Selector Position Wrap-Around Up
-    models: *id001
+    models: *id006
     name: up

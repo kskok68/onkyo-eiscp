@@ -668,24 +668,32 @@ def main():
     model_sets = OrderedDict()
 
     # Print names and indices of all sheets in the workbook
+    sheet_name_to_index = dict()
     if EXTRA_TRACE:
         print("Sheet names and indices:", file=sys.stderr)
-        for i, sheet in enumerate(book.sheets()):
+    for i, sheet in enumerate(book.sheets()):
+        sheet_name_to_index[sheet.title] = i
+        if EXTRA_TRACE:
             print(f"  {i}: {sheet.title}", file=sys.stderr)
 
     # Process the sheets
+    tabs_todo = OrderedDict([
+        ("main", "MAIN"),
+        ("zone2", "ZONE2"),
+        ("zone3", "ZONE3"),
+        ("zone4", "ZONE4"),
+        ("net", "NET USB"),
+        ("dock", "via RI"),
+        ("port", "PORT"),
+        ("blueray", "BD via RIHD"),
+        ("tv", "TV via RIHD")
+    ])
+    data = OrderedDict()
+    for key, value in tabs_todo.items():
+        if EXTRA_TRACE:
+            print(f"Processing {key} sheet", file=sys.stderr)
 
-    data = OrderedDict((
-        ('main', import_sheet('main', book.sheets()[4], model_sets)),
-        ('zone2', import_sheet('zone2', book.sheets()[5], model_sets)),
-        ('zone3', import_sheet('zone3', book.sheets()[6], model_sets)),
-        ('zone4', import_sheet('zone4', book.sheets()[7], model_sets)),
-        ('net', import_sheet('net', book.sheets()[8], model_sets)),
-        ('dock', import_sheet('dock', book.sheets()[13], model_sets)),
-        ('port', import_sheet('port', book.sheets()[14], model_sets)),
-        ('blueray', import_sheet('blueray', book.sheets()[15], model_sets)),
-        ('tv', import_sheet('tv', book.sheets()[16], model_sets)),
-    ))
+        data[key] = import_sheet(key, book.sheets()[sheet_name_to_index[f'CMND({value})']], model_sets)
 
     data['modelsets'] = OrderedDict(list(zip(list(model_sets.values()), list(model_sets.keys()))))
 

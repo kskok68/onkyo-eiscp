@@ -2,7 +2,7 @@ description: Zone2 Power Command
 name: power
 values:
   '00':
-    description: sets Zone 2 A/B Off
+    description: sets Zone2 Standby
     models: &id001
     - /515AE(Ether)
     - /616AE(Ether)
@@ -42,12 +42,8 @@ values:
     - DRX-R1.1
     - DRX-R1.3
     - DTC-7
-    - DTC-9.1
     - DTC-9.4
     - DTC-9.8
-    - DTM-40.4
-    - DTM-40.7
-    - DTM-5.9
     - DTM-7
     - DTR-10.5
     - DTR-20.1
@@ -72,7 +68,6 @@ values:
     - DTR-40.5
     - DTR-40.6
     - DTR-40.7
-    - DTR-5.2
     - DTR-5.3
     - DTR-5.4
     - DTR-5.5
@@ -86,7 +81,6 @@ values:
     - DTR-50.5
     - DTR-50.6
     - DTR-50.7
-    - DTR-6.2
     - DTR-6.3
     - DTR-6.4
     - DTR-6.5
@@ -96,8 +90,6 @@ values:
     - DTR-60.5
     - DTR-60.6
     - DTR-60.7
-    - DTR-7.1
-    - DTR-7.2
     - DTR-7.3
     - DTR-7.4
     - DTR-7.6
@@ -109,7 +101,6 @@ values:
     - DTR-70.3
     - DTR-70.4
     - DTR-70.6
-    - DTR-8.2
     - DTR-8.3
     - DTR-8.4
     - DTR-8.8
@@ -117,7 +108,6 @@ values:
     - DTR-80.1
     - DTR-80.2
     - DTR-80.3
-    - DTR-9.1
     - DTR-9.9
     - DTX-5.8
     - DTX-5.9
@@ -140,18 +130,9 @@ values:
     - PR-SC5530
     - PR-SC885
     - PR-SC886
-    - RDC-7
-    - RDC-7(Ver2.0)
     - RDC-7.1
-    - SX-N30
-    - TX-8160
     - TX-8270(Ether)
     - TX-8390
-    - TX-DS787
-    - TX-DS797
-    - TX-DS898
-    - TX-DS989
-    - TX-DS989
     - TX-NA900
     - TX-NA905
     - TX-NA906
@@ -184,6 +165,7 @@ values:
     - TX-NR579(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR609(Ether)
     - TX-NR6100
     - TX-NR616
@@ -252,16 +234,12 @@ values:
     - TX-SR806
     - TX-SR875
     - TX-SR876
-    name:
-    - zone-2-a
-    - b-off
+    name: standby
   '01':
-    description: sets Zone 2 A/B On
+    description: sets Zone2 On
     models: *id001
-    name:
-    - zone-2-a
-    - b-on
+    name: 'on'
   QSTN:
-    description: gets the Speaker State
+    description: gets the Zone2 Power Status
     models: *id001
     name: query

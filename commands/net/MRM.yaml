@@ -2,57 +2,17 @@ description: Multiroom Message Command (Message Command from the product to App.
 name: multiroom-message
 values:
   ab:
-    description: 'a:
-
-      0 FireConnect cancellation with ZoneOn
-
-      ZoneOff by FireConnectOn
-
-
-      b:
-
-      ''bit0 rsv (always LO)
-
-      ''bit1 HI During Zone2On, FireConnectOn and Zone2Off
-
-      ''bit2 HI During Zone2On, FireConnectOn and Zone3Off
-
-      ''bit3 HI During Zone4On, FireConnectOn and Zone4Off
-
-      bit0-4 = all LO During FireConnectOn, ZoneOn and FireConnect canceled
-
-
-      ex.:MRM02 Zone 2 turned off
-
-      ex.:MRM06 Zone2/Zone3 turned off
-
-      ex.:MRM00 FireConnet canceled
-
-
-      a:
-
-      1 Chromecast canceled with ZoneOn
-
-      ZoneOff by Chromecast connection
-
-      b:
-
-      bit0 rsv (always LO)
-
-      bit1 HI During Zone2On, Chromecast connection and Zone2Off
-
-      bit2 HI During Zone3On, Chromecast connection and Zone3Off
-
-      bit3 HI During Zone4On, Chromecast connection and Zone4Off
-
-      bit0-4 = all LO DuringChromecast, ZoneOn and Chromecast canceled
-
-
-      ex.:MRM12 Zone2 turned off
-
-      ex.:MRM16 Zone2/Zone3 turned off
-
-      ex.:MRM10 Chromecast canceled'
+    description: "a: Service   \n0              Flare Connect\n1                 Google\
+      \ Chromecast\n2                 Play-Fi\n3                 AirPlay\n4      \
+      \           Reserve\n5                 Amazon Alexa\n6                 Bluetooth\
+      \ Sender\n7\uFF5EE       Reserve\nF                 Canceled from Flare Connect\
+      \ changed\n\nb:\nbit0                 During ZoneB On, Service Enabeled and\
+      \ ZoneB Off\nbit1   HI          During Zone2 On, Service Enabeled and Zone2\
+      \ Off\nbit2   HI          During Zone3 On, Service Enabeled and Zone3 Off\n\
+      bit3   HI          During Zone4 On, Service Enabeled and Zone4 Off\nbit0-3:\
+      \ all LO  During Service Enabeled, Zone On and Service canceled\n\nex.:MRM02\
+      \       Zone 2 turned off\nex.:MRM06       Zone2/Zone3 turned off\nex.:MRM00\
+      \       Flare Connet canceled"
     models:
     - DRC-R1
     - DRC-R1.1
@@ -90,11 +50,12 @@ values:
     - TX-NR575E(Ether)
     - TX-NR585(Ether)
     - TX-NR595
+    - TX-NR6050
     - TX-NR6100
     - TX-NR656(Ether)
     - TX-NR676(Ether)
     - TX-NR676E(Ether)
-    - TX-NR686
+    - TX-NR686(Ether)
     - TX-NR696
     - TX-NR7100
     - TX-NR757
@@ -102,9 +63,9 @@ values:
     - TX-NR787
     - TX-NR797
     - TX-RZ1100
-    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
+    - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ710
