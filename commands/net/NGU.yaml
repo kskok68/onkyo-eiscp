@@ -1,8 +1,8 @@
 description: Google Cast Share Usage Data Command
 name: google-cast-share-usage-data
 values:
-  QSTN:
-    description: gets Google Cast Share Usage Data State
+  '00':
+    description: sets Google Cast Share Usage Data Off
     models: &id001
     - DRC-R1
     - DRC-R1.1
@@ -67,12 +67,12 @@ values:
     - TX-RZ830
     - TX-RZ840
     - TX-RZ920
-    name: query
-  "\u201D00\u201D":
-    description: sets Google Cast Share Usage Data Off
-    models: *id001
     name: 'off'
-  "\u201D01\u201D":
+  '01':
     description: sets Google Cast Share Usage Data On
     models: *id001
     name: 'on'
+  QSTN:
+    description: gets Google Cast Share Usage Data State
+    models: *id001
+    name: query

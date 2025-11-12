@@ -1,6 +1,10 @@
 description: '[e-onkyo] Device Authentication Key'
 name: e-onkyo-device-authentication-key
 values:
+  CMP:
+    description: Device Authentication Key was set
+    models: []
+    name: cmp
   Ezz:
     description: "Device Authentication Key Error\nzz : Error Code\n\u201D05\u201D\
       \ : Device Authentication Key Error"
@@ -19,7 +23,3 @@ values:
     description: Set Device Authentication Key(8 ASCII letters) (return "CMP" or "Ezz")
     models: []
     name: s-xx-xx-xx-xx
-  "\u201DCMP\u201D":
-    description: Device Authentication Key was set
-    models: []
-    name: cmp

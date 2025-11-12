@@ -29,13 +29,13 @@ values:
     description: gets Download status
     models: []
     name: query
-  STEADY:
-    description: download Steadied
-    models: []
-    name: steady
-  "\u201DSALLnn\u201D":
+  SALLnn:
     description: 'Suspending
 
       nn : Progress (%) (00-99 [digits])'
     models: []
     name: sallnn
+  STEADY:
+    description: download Steadied
+    models: []
+    name: steady

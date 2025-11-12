@@ -5,8 +5,8 @@ values:
     description: gets The Storage Free Space
     models: []
     name: query
-  "\u201Dxxxxxxxx\u201D":
+  '{xx}{xx}{xx}{xx}':
     description: 'zzzzzzzz : Free Space(Mbyte) (00000000-FFFFFFFF : 0 to 4,294,967,295Mbyte
       [8 HEX digits])'
     models: []
-    name: xxxxxxxx
+    name: xx-xx-xx-xx

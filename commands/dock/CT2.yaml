@@ -46,6 +46,10 @@ values:
     description: REC/PAUSE
     models: *id001
     name: rc-pau
+  REC:
+    description: REC
+    models: *id001
+    name: rec
   REW:
     description: REW <<
     models: *id001
@@ -62,7 +66,3 @@ values:
     description: STOP
     models: *id001
     name: stop
-  "\u201CREC\u201D":
-    description: REC
-    models: *id001
-    name: rec

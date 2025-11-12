@@ -186,7 +186,7 @@ values:
     - TX-SR806
     - TX-SR875
     - TX-SR876
-  "\u201CUP\u201D":
+  UP:
     description: LEVEL + Key
     models: &id001
     - /515AE(Ether)
@@ -391,7 +391,7 @@ values:
     - TX-SR875
     - TX-SR876
     name: up
-  "\u201CDOWN\u201D":
+  DOWN:
     description: LEVEL - KEY
     models: *id001
     name: down

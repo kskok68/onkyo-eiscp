@@ -1,15 +1,15 @@
 description: '[e-onkyo] Operation Approval'
 name: e-onkyo-operation-approval
 values:
+  '00':
+    description: Operation not Approval
+    models: []
+    name: not-approval
+  '01':
+    description: Operation Approval
+    models: []
+    name: operation-approval
   QSTN:
     description: Get status of setting Operation Approval
     models: []
     name: query
-  "\u201D00\u201D":
-    description: Operation not Approval
-    models: []
-    name: '00'
-  "\u201D01\u201D":
-    description: Operation Approval
-    models: []
-    name: '01'

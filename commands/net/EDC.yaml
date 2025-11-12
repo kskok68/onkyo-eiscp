@@ -14,6 +14,10 @@ values:
     description: Download contents information checking
     models: []
     name: checking
+  CMP:
+    description: Complete download contents information
+    models: []
+    name: cmp
   Ezz:
     description: "zz : Error Code\n\u201D01\u201D : No Information\n\u201D02\u201D\
       \ : Network Error\n\u201D03\u201D : File system Error\n\u201D04\u201D : Storage\
@@ -32,7 +36,3 @@ values:
     description: Download contents information steadied
     models: []
     name: steady
-  "\u201DCMP\u201D":
-    description: Complete download contents information
-    models: []
-    name: cmp

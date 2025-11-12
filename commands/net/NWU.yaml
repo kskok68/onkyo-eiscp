@@ -1,7 +1,7 @@
 description: WebSetup Update Setting Command
 name: websetup-update-setting
 values:
-  "\u201D00\u201D":
+  '00':
     description: sets WebSetup Update Function Off
     models: &id001
     - DRC-R1
@@ -68,7 +68,7 @@ values:
     - TX-RZ840
     - TX-RZ920
     name: function-off
-  "\u201D01\u201D":
+  '01':
     description: sets WebSetup Update Function On
     models: *id001
     name: function-on

@@ -1,8 +1,9 @@
 description: Vocal/Dialog Command
 name: vocal-dialog
 values:
-  DOWN:
-    description: sets Vocal/Dialog Level down(1 step)
+  ? - 0
+    - 5
+  : description: "sets Vocal/Dialog Level 0\uFF5E5"
     models: &id001
     - DRC-R1.3
     - DRX-2.3
@@ -26,16 +27,15 @@ values:
     - TX-RZ50
     - TX-RZ740
     - TX-RZ840
+  UP:
+    description: sets Vocal/Dialog Level up(1 step)
+    models: *id001
+    name: up
+  DOWN:
+    description: sets Vocal/Dialog Level down(1 step)
+    models: *id001
     name: down
   QSTN:
     description: gets Vocal/Dialogs Level
     models: *id001
     name: query
-  UP:
-    description: sets Vocal/Dialog Level up(1 step)
-    models: *id001
-    name: up
-  "\u201C00\u201D-\u201C05\u201D":
-    description: "sets Vocal/Dialog Level 0\uFF5E5"
-    models: *id001
-    name: 0-5

@@ -1,7 +1,7 @@
 # Last generated
 #   by import_protocol_doc.py
 #   from ISCP_AVR_148.xlsx
-#   at 2025-03-11 23:36:33.854095
+#   at 2025-11-11 19:03:43.087156
 #
 # This file can and should be manually changed to fix things the
 # automatic import didn't and often can't do right. These changes
@@ -440,28 +440,28 @@ main:
     name: sleep-set
     description: Sleep Set Command
     values:
-      “01”-“5A”:
-        name: time-1-90min
-        description: sets Sleep Time 1 - 90min ( In hexadecimal representation)
+      ? - 1
+        - 90
+      : description: sets Sleep Time 1 - 90min ( In hexadecimal representation)
         models: set23
-      “OFF”:
+      'OFF':
         name: time-off
         description: sets Sleep Time Off
         models: set23
-      “UP”:
+      UP:
         name: up
         description: sets Sleep Time Wrap-Around UP(Only when the value is OFF, it
           is set to 30 min even if it is not displayed by front panel.)
         models: set23
-      “QSTN”:
-        name: qstn
+      QSTN:
+        name: query
         description: gets The Sleep Time
         models: set23
   SLC:
     name: speaker-level-calibration
     description: Speaker Level Calibration Command
     values:
-      “TEST”:
+      TEST:
         name: test
         description: TEST Key
         models: set23
@@ -469,15 +469,15 @@ main:
         name: test-tone-off
         description: sets TEST TONE OFF
         models: set24
-      “CHSEL”:
+      CHSEL:
         name: chsel
         description: CH SEL Key
         models: set23
-      “UP”:
+      UP:
         name: up
         description: LEVEL + Key
         models: set23
-      “DOWN”:
+      DOWN:
         name: down
         description: LEVEL - KEY
         models: set23
@@ -493,11 +493,11 @@ main:
         - 12
       : description: sets Subwoofer Level -15dB - 0dB - +12dB
         models: set27
-      “UP”:
+      UP:
         name: up
         description: LEVEL + Key
         models: set28
-      “DOWN”:
+      DOWN:
         name: down
         description: LEVEL - KEY
         models: set28
@@ -517,11 +517,11 @@ main:
         - 12
       : description: sets Subwoofer 2 Level -15dB - 0dB - +12dB
         models: set30
-      “UP”:
+      UP:
         name: up
         description: LEVEL + Key
         models: set31
-      “DOWN”:
+      DOWN:
         name: down
         description: LEVEL - KEY
         models: set31
@@ -541,11 +541,11 @@ main:
         - 12
       : description: sets Center Level -12dB - 0dB - +12dB
         models: set33
-      “UP”:
+      UP:
         name: up
         description: LEVEL + Key
         models: set34
-      “DOWN”:
+      DOWN:
         name: down
         description: LEVEL - KEY
         models: set34
@@ -601,9 +601,9 @@ main:
     name: vocal-dialog
     description: Vocal/Dialog Command
     values:
-      “00”-“05”:
-        name: 0-5
-        description: sets Vocal/Dialog Level 0～5
+      ? - 0
+        - 5
+      : description: sets Vocal/Dialog Level 0～5
         models: set35
       UP:
         name: up
@@ -950,7 +950,7 @@ main:
         name: am
         description: sets AM
         models: set1
-      “26”:
+      '26':
         name: tuner
         description: sets TUNER
         models: set3
@@ -3273,19 +3273,19 @@ main:
     name: rds-information
     description: RDS Information Command (RDS Model Only)
     values:
-      “00”:
-        name: '00'
+      '00':
+        name: rt-information
         description: Display RT Information
         models: set190
-      “01”:
-        name: '01'
+      '01':
+        name: pty-information
         description: Display PTY Information
         models: set190
-      “02”:
-        name: '02'
+      '02':
+        name: tp-information
         description: Display TP Information
         models: set191
-      “UP”:
+      UP:
         name: up
         description: Display RDS Information Wrap-Around Change
         models: set190
@@ -3293,11 +3293,11 @@ main:
     name: pty-scan
     description: PTY Scan Command (RDS Model Only)
     values:
-      “01”-“1D”:
-        name: no-1-29
-        description: sets PTY No “1 - 29” ( In hexadecimal representation)
+      ? - 1
+        - 29
+      : description: sets PTY No “1 - 29” ( In hexadecimal representation)
         models: set190
-      “ENTER”:
+      ENTER:
         name: enter
         description: Finish PTY Scan
         models: set192
@@ -3305,10 +3305,10 @@ main:
     name: tp-scan
     description: TP Scan Command (RDS Model Only)
     values:
-      “”:
-        description: Start TP Scan (When Don’t Have Parameter)
+      ? ''
+      : description: Start TP Scan (When Don’t Have Parameter)
         models: set191
-      “ENTER”:
+      ENTER:
         name: enter
         description: Finish TP Scan
         models: set193
@@ -6623,12 +6623,12 @@ net:
     name: e-onkyo-operation-approval
     description: '[e-onkyo] Operation Approval'
     values:
-      ”00”:
-        name: '00'
+      '00':
+        name: not-approval
         description: Operation not Approval
         models: set4
-      ”01”:
-        name: '01'
+      '01':
+        name: operation-approval
         description: Operation Approval
         models: set4
       QSTN:
@@ -6639,7 +6639,7 @@ net:
     name: e-onkyo-device-authentication-key
     description: '[e-onkyo] Device Authentication Key'
     values:
-      ”CMP”:
+      CMP:
         name: cmp
         description: Device Authentication Key was set
         models: set4
@@ -6669,7 +6669,7 @@ net:
     name: e-onkyo-download-contents-information
     description: '[e-onkyo] Download Contents Information'
     values:
-      ”CMP”:
+      CMP:
         name: cmp
         description: Complete download contents information
         models: set4
@@ -6711,8 +6711,8 @@ net:
     name: e-onkyo-storage-free-space
     description: '[e-onkyo] Storage Free Space'
     values:
-      ”xxxxxxxx”:
-        name: xxxxxxxx
+      '{xx}{xx}{xx}{xx}':
+        name: xx-xx-xx-xx
         description: 'zzzzzzzz : Free Space(Mbyte) (00000000-FFFFFFFF : 0 to 4,294,967,295Mbyte
           [8 HEX digits])'
         models: set4
@@ -6730,7 +6730,7 @@ net:
 
           nn : Progress (%) (00-99 [digits])'
         models: set4
-      ”SALLnn”:
+      SALLnn:
         name: sallnn
         description: 'Suspending
 
@@ -6884,11 +6884,11 @@ net:
     name: google-cast-share-usage-data
     description: Google Cast Share Usage Data Command
     values:
-      ”00”:
+      '00':
         name: 'off'
         description: sets Google Cast Share Usage Data Off
         models: set284
-      ”01”:
+      '01':
         name: 'on'
         description: sets Google Cast Share Usage Data On
         models: set284
@@ -6959,11 +6959,11 @@ net:
     name: websetup-update-setting
     description: WebSetup Update Setting Command
     values:
-      ”00”:
+      '00':
         name: function-off
         description: sets WebSetup Update Function Off
         models: set284
-      ”01”:
+      '01':
         name: function-on
         description: sets WebSetup Update Function On
         models: set284
@@ -7292,7 +7292,7 @@ dock:
         name: skip-r
         description: I<<
         models: set319
-      “REC”:
+      REC:
         name: rec
         description: REC
         models: set319
