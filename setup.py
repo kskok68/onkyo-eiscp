@@ -10,6 +10,12 @@ f = open(os.path.join(here, 'README.rst'))
 long_description = f.read().strip()
 f.close()
 
+lib_folder = os.path.dirname(os.path.realpath(__file__))
+requirement_path = f"{lib_folder}/requirements.txt"
+install_requires = []
+if os.path.isfile(requirement_path):
+    with open(requirement_path) as f:
+        install_requires = f.read().splitlines()
 setup(
     name='onkyo-eiscp',
     version='1.4.0',
@@ -21,7 +27,7 @@ setup(
     long_description=long_description,
     packages = find_packages(exclude=('tests*',)),
     entry_points="""[console_scripts]\nonkyo = eiscp.script:run\n""",
-    install_requires=['docopt>=0.4.1', 'netifaces', 'xmltodict>=0.12.0'],
+    install_requires=install_requires,
     platforms='any',
     classifiers=[
         'Topic :: System :: Networking',

@@ -11,6 +11,10 @@ parsing the official documentation. Even if you are not using
 Python, you may find this file useful when implementing your own
 interface. See further down below for more information.
 
+Changes from original repo
+------------
+This has a much more comprehensive excel parser for the protocol file to the yaml files.  It allows for version changes without having to many numerous manual code changes.  It also has AVR 148 as the latest protocol with is several years newer.  Note the easy_install installs the original version not with these enhancements (until it is merged into master).
+
 
 Installation
 ------------
@@ -251,10 +255,12 @@ identifiers that can be understood by humans, and which include
 descriptions.
 
 Parsing the Onkyo Excel document gets you astonishingly far, but
-there's a limit. The YAML file requires manual edits and fixes where
+there's a limit. 
+~~The YAML file requires manual edits and fixes where
 the parser fails, including a lot of cosmetic corrections. Some of
 those have been made, but there's significant room for improving
-the YAML description of the protocol.
+the YAML description of the protocol.~~
+The updated parser avoids any hand editing.
 
 The process and the specific YAML formatting have been chosen to
 allow future changes to the Onkyo master document to be merged with
