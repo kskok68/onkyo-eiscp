@@ -35,6 +35,9 @@ HEX_CHARS = '0123456789ABCDEF'
 COMMON_WORDS_TO_REMOVE = ['level', 'setting', 'state', 'control']
 STATE_WORDS = ['enabled', 'disabled', 'active', 'inactive', 'toggle', 'standby', 'auto', 'manual']
 NEGATION_WORDS = ['not', 'no', 'non']
+QUOTES = {'"': '"', "'": "'", "\u201c": "\u201d", "\u201d": "\u201c"}
+QUOTES_ARRAY = list(set(list(QUOTES.keys()) + list(QUOTES.values())))
+QUOTES_REGEX_CLASS = f"[{''.join(QUOTES_ARRAY)}]"
 
 # Helper functions for string processing
 def make_command(name):
@@ -129,23 +132,20 @@ def safe_extract_quoted_content(text):
     # Process Unicode characters first
     text = process_unicode_text(text)
 
-    # Define all possible quote characters
-    quotes = {'"': '"', "'": "'", "\u201c": "\u201d", "\u201d": "\u201c"}
-
     # First check for exact pairs
-    for open_q, close_q in quotes.items():
+    for open_q, close_q in QUOTES.items():
         if text.startswith(open_q) and text.endswith(close_q):
             return text[len(open_q):-len(close_q)]
 
     # Then check more liberally for any quote combination
-    for open_q in quotes.keys():
+    for open_q in QUOTES.keys():
         if text.startswith(open_q):
-            for close_q in quotes.values():
+            for close_q in QUOTES.values():
                 if text.endswith(close_q):
                     return text[len(open_q):-len(close_q)]
 
     # If no quotes found, return stripped version
-    stripped = text.strip('"\'"\u201c\u201d')
+    stripped = text.strip("".join(QUOTES_ARRAY))
     if text != stripped:
         print(f"Warning: Failed to match quotes in value: '{text}', using stripped: '{stripped}'", file=sys.stderr)
     return stripped
@@ -157,7 +157,7 @@ def is_command_header(row):
 
     rowStr = row[0].strip()
     # Check for specific patterns that indicate headers
-    if ( rowStr[0] == "'" or rowStr[0] == '"'):
+    if rowStr[0] in QUOTES_ARRAY:
         return True
 
     # Check if subsequent columns are empty (another header indicator)
@@ -180,7 +180,7 @@ def parse_command_header(header_text):
     if 'when' in header_text.lower() or 'ex:' in header_text.lower() or 'is shared' in header_text.lower():
         return None, None
     # Try matching with quotes
-    cmd_pattern = r'["\'"\u201c\u201d]([A-Z0-9]{2,})["\'"\u201c\u201d]\s*-\s*(.*)'
+    cmd_pattern = fr'{QUOTES_REGEX_CLASS}([A-Z0-9]{{2,}}){QUOTES_REGEX_CLASS}\s*-\s*(.*)'
     match = re.match(cmd_pattern, header_text)
 
     if match is None:
@@ -195,11 +195,11 @@ def parse_command_header(header_text):
 
 def process_range_value(value):
     """Process a command value that might be a range."""
-    if not re.search(r'["""]', value):
+    if not any(q in value for q in QUOTES_ARRAY):
         return value
 
     # Parse the value - sometimes ranges are given, split those first
-    range_value = re.split(r'(?<=[\u201c\u201d"""])-(?=[\u201c\u201d"""])', value)
+    range_value = re.split(fr'(?<={QUOTES_REGEX_CLASS})-(?={QUOTES_REGEX_CLASS})', value)
     range_value = [safe_extract_quoted_content(r) for r in range_value]
 
     # If it's actually a single value, store as such
@@ -365,7 +365,7 @@ def import_sheet(groupname, sheet, model_sets):
                     while True:
                         try:
                             row = next(it)
-                            if row[0] and isinstance(row[0], str) and row[0].startswith('"'):
+                            if row[0] and isinstance(row[0], str) and row[0][0] in QUOTES_ARRAY:
                                 break
                         except StopIteration:
                             return  # End of data during special case
@@ -433,6 +433,8 @@ def import_sheet(groupname, sheet, model_sets):
 
             # Process the value
             range_value = process_range_value(value)
+            if EXTRA_TRACE:
+                print(f"  Processing value: '{value}' -> '{range_value}'", file=sys.stderr)
 
             # Process model support
             support = [ parse_support(c) for c in row[2:]]
@@ -659,7 +661,7 @@ def main():
     # Load the Excel file
     with open(sys.argv[1], 'rb') as f:
         try:
-            book = tablib.import_book(f)
+            book = tablib.import_book(f, format='xlsx')
         except Exception as e:
             print(f"Error loading Excel file: {e}", file=sys.stderr)
             sys.exit(1)
