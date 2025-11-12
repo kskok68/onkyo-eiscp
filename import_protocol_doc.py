@@ -340,18 +340,48 @@ def import_sheet(groupname, sheet, model_sets):
         print(f"Importing {groupname} sheet", file=sys.stderr)
     data = OrderedDict()
 
+    max_model_column = 4
+    while max_model_column < len(sheet[0]) and bool(sheet[0][max_model_column]):
+        max_model_column += 1
     # First line has a list of models, ignore empty cols, and first two.
-    modelcols = list(filter(lambda s: bool(s), sheet[0]))[2:]
+    modelcols = list(filter(lambda s: bool(s), sheet[0]))[2:max_model_column]
     # One model headers can continue multiple models. Split.
     modelcols = [m
                 .replace('\n(Ether)', '(Ether)')
+                .replace('(Ether)', '') #we can assume ethernet always:)
                 .replace('\n(Ver2.0)', '(Ver2.0)')
                 .replace('TX-NR5000ETX-NA1000', 'TX-NR5000\nETX-NA1000')
+                .replace('\n\n', '\n').strip() #not really needed but lets make sure we cleanup any extra blank lines
                 .split('\n')
               for m in modelcols]
 
+    # Fixup models that are split like TX-NR616 and /616AE
+    for i, models in enumerate(modelcols):
+        j = 0
+        while j < len(models) - 1:
+            if models[j+1].startswith('/'):
+                base_model = models[j]
+                suffix = models[j+1][1:]
+
+                # Find the part of the suffix that is not at the end of the base model
+                overlap = 0
+                for k in range(len(suffix), 0, -1):
+                    if base_model.endswith(suffix[:k]):
+                        overlap = k
+                        break
+
+                if overlap > 0:
+                    new_model_suffix = suffix[overlap:]
+                    new_model = base_model + new_model_suffix
+                    models[j+1] = new_model
+                else:
+                    # Fallback or different logic if needed, for now just prepend
+                    models[j+1] = base_model + suffix
+            j += 1
+    modelcols = [[m for m in models if not m.startswith('/')] for models in modelcols]
+
     # Max column to consider (to avoid floating tables)
-    max_model_column = len([s for s in modelcols if bool(s)]) + 2
+
 
     def loop_rows(data):
         it = iter(data)
@@ -451,6 +481,11 @@ def import_sheet(groupname, sheet, model_sets):
             supported_models = sorted(set(supported_models))
             supported_models = tuple(supported_models)  # make hashable
 
+            if any("Electronic Program Guide" in m for m in supported_models):
+                print(
+                    f"Error: Found 'Electronic Program Guide' in supported models for sheet '{groupname}', prefix '{prefix}', value '{value}'",
+                    file=sys.stderr,
+                )
             # Add to model sets
             if supported_models not in model_sets:
                 setname = f'set{len(model_sets)+1}'
