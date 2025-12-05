@@ -4,9 +4,6 @@ values:
   QSTN:
     description: gets the Net/USB Status
     models: &id001
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-80.1
@@ -27,11 +24,14 @@ values:
     - TX-NR5007
     - TX-NR5008
     - TX-NR515
+    - TX-NR515AE
     - TX-NR616
+    - TX-NR616AE
     - TX-NR708
     - TX-NR807
     - TX-NR808
     - TX-NR818
+    - TX-NR818AE
     name: query
   prs:
     description: 'NET/USB Play Status (3 letters)

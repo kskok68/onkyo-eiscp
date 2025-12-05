@@ -26,7 +26,6 @@ values:
   FH:
     description: sets Front High Speaker / SurrBack+Front High Speakers
     models:
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -69,12 +68,13 @@ values:
     - TX-NR5010
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
+    - TX-NR717
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
+    - TX-NR818AE
+    - TX-NR828
     - TX-NR929
     - TX-SR707
     name:
@@ -83,7 +83,6 @@ values:
   FW:
     description: sets Front Wide Speaker / SurrBack+Front Wide Speakers
     models:
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -128,13 +127,14 @@ values:
     - TX-NR5010
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
+    - TX-NR717
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-SR707
     name:
@@ -150,7 +150,7 @@ values:
     - DTR-60.6
     - DTR-60.7
     - TX-NR1030
-    - TX-NR838(Ether)
+    - TX-NR838
     - TX-RZ800
     - TX-RZ810
     - TX-RZ820
@@ -184,7 +184,6 @@ values:
   QSTN:
     description: gets the Speaker State
     models: &id002
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -234,13 +233,14 @@ values:
     - TX-NR5010
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
+    - TX-NR717
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-RZ800
     - TX-RZ810
@@ -251,7 +251,6 @@ values:
   SB:
     description: sets SurrBack Speaker
     models:
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -277,13 +276,14 @@ values:
     - TX-NR1030
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
+    - TX-NR717
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-RZ800
     - TX-RZ810

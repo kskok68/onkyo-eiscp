@@ -4,8 +4,6 @@ values:
   '00':
     description: sets Zone3 Muting Off
     models: &id001
-    - /616AE(Ether)
-    - /818AE
     - DHC-60.5
     - DHC-60.7
     - DHC-80.1
@@ -28,6 +26,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -92,26 +91,30 @@ values:
     - TX-NR5009
     - TX-NR5010
     - TX-NR616
+    - TX-NR616AE
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
     - TX-NR787
     - TX-NR797
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ730
     - TX-RZ740
     - TX-RZ800

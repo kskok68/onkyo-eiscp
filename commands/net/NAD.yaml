@@ -3,7 +3,7 @@ name: alexa-device-information
 values:
   QSTN:
     description: gets Device Information for Alexa service
-    models: &id001
+    models:
     - DRC-R1.3
     - DRX-3.3
     - DRX-3.4
@@ -11,16 +11,21 @@ values:
     - DRX-5.3
     - DRX-5.4
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1.3
+    - DTM-7.4
     - TX-8390
+    - TX-8470
     - TX-NR5100
     - TX-NR6050
     - TX-NR6100
     - TX-NR696
     - TX-NR7100
     - TX-NR797
+    - TX-RZ30
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ740
     - TX-RZ840
     name: query
@@ -32,5 +37,28 @@ values:
 
       yyy...yyy : Character of device name for Alexa service (variable-length, Unicode
       letters [UTF-8 encoded])'
-    models: *id001
+    models:
+    - DRC-R1.3
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.3
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7.3
+    - DRX-8.4
+    - DRX-R1.3
+    - DTM-7.4
+    - TX-8390
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR696
+    - TX-NR7100
+    - TX-NR797
+    - TX-RZ30
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ70
+    - TX-RZ740
+    - TX-RZ840
     name: xx-x-xx-x-yyy-yyy

@@ -10,6 +10,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -17,6 +18,7 @@ values:
     - TX-RZ1100
     - TX-RZ3100
     - TX-RZ3400
+    - TX-RZ70
     - TX-RZ920
     name: 'off'
   '01':

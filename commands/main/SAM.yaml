@@ -11,14 +11,17 @@ values:
     - DRX-5.3
     - DRX-5.4
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1.3
     - TX-NR6050
     - TX-NR6100
     - TX-NR696
     - TX-NR7100
     - TX-NR797
+    - TX-RZ30
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ740
     - TX-RZ840
     name: front-speaker
@@ -36,11 +39,14 @@ values:
     - DRX-5.3
     - DRX-5.4
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1.3
     - TX-NR7100
     - TX-NR797
+    - TX-RZ30
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ740
     - TX-RZ840
     name: height2-speakers

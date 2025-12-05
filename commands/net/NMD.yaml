@@ -4,9 +4,6 @@ values:
   EXT:
     description: Extend Mode(If available)
     models: &id001
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-80.3
     - DTR-20.3
     - DTR-20.4
@@ -24,18 +21,21 @@ values:
     - TX-NR1010
     - TX-NR3009
     - TX-NR3010
-    - TX-NR414(Ether)
+    - TX-NR414
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR515
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR515AE
+    - TX-NR579
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR709
-    - TX-NR717(Ether)
+    - TX-NR717
     - TX-NR809
     - TX-NR818
+    - TX-NR818AE
     name: ext
   QSTN:
     description: gets iPod Mode Status
@@ -48,9 +48,6 @@ values:
   VDC:
     description: Video Contents in Extended Mode
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-80.3
     - DTR-20.4
     - DTR-30.3
@@ -70,11 +67,14 @@ values:
     - TX-NR5009
     - TX-NR5010
     - TX-NR515
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR515AE
+    - TX-NR579
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR709
-    - TX-NR717(Ether)
+    - TX-NR717
     - TX-NR809
     - TX-NR818
+    - TX-NR818AE
     name: vdc

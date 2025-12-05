@@ -4,9 +4,6 @@ values:
   '00':
     description: sets Auto
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.2
     - DHC-60.5
     - DHC-80.3
@@ -35,9 +32,9 @@ values:
     - DTR-70.4
     - DTR-70.6
     - DTR-80.3
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC560
     - HT-RC660
     - PR-SC5509
     - PR-SC5530
@@ -51,29 +48,29 @@ values:
     - TX-NR5009
     - TX-NR5010
     - TX-NR515
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR515AE
+    - TX-NR579
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     name: auto
   '01':
     description: sets 4:3
     models: &id001
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.2
     - DHC-60.5
     - DHC-80.2
@@ -105,9 +102,9 @@ values:
     - DTR-70.6
     - DTR-80.2
     - DTR-80.3
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC560
     - HT-RC660
     - PR-SC5508
     - PR-SC5509
@@ -124,21 +121,24 @@ values:
     - TX-NR5009
     - TX-NR5010
     - TX-NR515
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR515AE
+    - TX-NR579
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     name: 4-3
   '02':

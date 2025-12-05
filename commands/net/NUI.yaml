@@ -4,7 +4,7 @@ values:
   AA:
     description: "AA : Update Information Type\n 00 : No update information, 01 :\
       \ Has Update Information, 02 : Should show information by automatic,"
-    models: &id001
+    models:
     - DRC-R1.3
     - DRX-3.3
     - DRX-3.4
@@ -12,7 +12,9 @@ values:
     - DRX-5.3
     - DRX-5.4
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1.3
+    - DTM-7.4
     - TX-8390
     - TX-NR5100
     - TX-NR6050
@@ -20,8 +22,10 @@ values:
     - TX-NR696
     - TX-NR7100
     - TX-NR797
+    - TX-RZ30
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ740
     - TX-RZ840
     name: aa
@@ -42,26 +46,30 @@ values:
     - DRX-5.4
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1.1
     - DRX-R1.3
     - DTM-7
-    - TX-8270(Ether)
+    - DTM-7.4
+    - TX-8270
     - TX-8390
-    - TX-NR474(Ether)
+    - TX-NR474
     - TX-NR5100
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
+    - TX-NR575
+    - TX-NR575E
     - TX-NR6050
     - TX-NR6100
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
+    - TX-NR676
+    - TX-NR676E
     - TX-NR696
     - TX-NR7100
     - TX-NR777
     - TX-NR797
+    - TX-RZ30
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ620
+    - TX-RZ70
     - TX-RZ720
     - TX-RZ740
     - TX-RZ820
@@ -69,5 +77,29 @@ values:
     - TX-RZ920
   QSTN:
     description: gets Update Information
-    models: *id001
+    models:
+    - DRC-R1.3
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4.3
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7.3
+    - DRX-8.4
+    - DRX-R1.3
+    - DTM-7.4
+    - TX-8390
+    - TX-8470
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR696
+    - TX-NR7100
+    - TX-NR797
+    - TX-RZ30
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ70
+    - TX-RZ740
+    - TX-RZ840
     name: query

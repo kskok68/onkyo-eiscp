@@ -8,8 +8,8 @@ values:
     - DRX-3
     - DRX-4
     - DRX-5
-    - TX-NR555(Ether)
-    - TX-NR656(Ether)
+    - TX-NR555
+    - TX-NR656
     - TX-NR757
     - TX-RZ610
     - TX-RZ710

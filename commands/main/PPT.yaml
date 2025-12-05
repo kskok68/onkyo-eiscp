@@ -4,7 +4,9 @@ values:
   QSTN:
     description: gets the Personal Preset Setting
     models: &id001
+    - DTM-7.4
     - TX-8390
+    - TX-8470
     name: query
   RCLn:
     description: recalls Personal Preset n (n = Preset Number 1-4)

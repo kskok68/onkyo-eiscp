@@ -4,9 +4,6 @@ values:
   '00':
     description: sets STEREO
     models: &id001
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -38,6 +35,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -46,6 +44,7 @@ values:
     - DTC-9.4
     - DTC-9.8
     - DTM-7
+    - DTM-7.4
     - DTR-10.5
     - DTR-20.1
     - DTR-20.2
@@ -125,10 +124,10 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -140,8 +139,9 @@ values:
     - RDC-7
     - RDC-7(Ver2.0)
     - RDC-7.1
-    - TX-8270(Ether)
+    - TX-8270
     - TX-8390
+    - TX-8470
     - TX-DS787
     - TX-DS797
     - TX-DS898
@@ -161,44 +161,46 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -207,20 +209,23 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR900
     - TX-NR901
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -258,9 +263,6 @@ values:
   '02':
     description: sets SURROUND
     models: &id003
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -292,6 +294,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -378,10 +381,10 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -412,44 +415,46 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -458,20 +463,23 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR900
     - TX-NR901
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -505,9 +513,6 @@ values:
   '03':
     description: sets FILM, Game-RPG / Advanced Game
     models: &id002
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -538,6 +543,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -580,10 +586,10 @@ values:
     - DTR-80.2
     - DTR-80.3
     - DTR-9.1
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -603,43 +609,45 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -648,16 +656,19 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -677,8 +688,6 @@ values:
   '04':
     description: sets THX
     models:
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -701,6 +710,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -766,7 +776,7 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R993(Ether)
+    - HT-R993
     - PR-RZ5100
     - PR-SC5507
     - PR-SC5508
@@ -801,18 +811,19 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
-    - TX-NR686(Ether)
+    - TX-NR616AE
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -821,17 +832,20 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR900
     - TX-NR901
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -991,9 +1005,6 @@ values:
   0D:
     description: sets THEATER-DIMENSIONAL / Front Stage Surround
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -1025,6 +1036,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -1099,10 +1111,10 @@ values:
     - DTX-8.8
     - DTX-8.9
     - DTX-9.9
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -1131,43 +1143,45 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1176,20 +1190,23 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR900
     - TX-NR901
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1222,9 +1239,6 @@ values:
   0E:
     description: sets ENHANCED 7/ENHANCE, Game-Sports / Sports
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -1255,6 +1269,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -1314,10 +1329,10 @@ values:
     - DTR-9.1
     - DTX-7
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -1343,44 +1358,46 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1389,18 +1406,21 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR900
     - TX-NR901
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1422,9 +1442,6 @@ values:
   0F:
     description: sets MONO
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -1456,6 +1473,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -1538,10 +1556,10 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -1572,44 +1590,46 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1618,20 +1638,23 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR900
     - TX-NR901
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1665,9 +1688,6 @@ values:
   '11':
     description: sets PURE AUDIO / Pure Direct
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DTC-7
     - DTC-9.4
     - DTM-7
@@ -1686,10 +1706,10 @@ values:
     - DTR-8.4
     - DTX-7
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -1697,8 +1717,9 @@ values:
     - PR-SC5509
     - PR-SC5530
     - RDC-7.1
-    - TX-8270(Ether)
+    - TX-8270
     - TX-8390
+    - TX-8470
     - TX-NA900
     - TX-NA905
     - TX-NA906
@@ -1714,44 +1735,46 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1760,20 +1783,23 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR900
     - TX-NR901
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -1818,9 +1844,6 @@ values:
   '13':
     description: sets FULL MONO/Mono Music
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -1852,6 +1875,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -1920,10 +1944,10 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -1947,44 +1971,46 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -1993,18 +2019,21 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2056,8 +2085,6 @@ values:
   '16':
     description: sets Audyssey DSX
     models: &id012
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -2100,17 +2127,19 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
+    - TX-NR717
+    - TX-NR727
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
+    - TX-NR818AE
+    - TX-NR828
     - TX-NR929
     - TX-SR707
     name: audyssey-dsx
@@ -2128,8 +2157,6 @@ values:
   1F:
     description: sets Whole House Mode
     models:
-    - /616AE(Ether)
-    - /818AE
     - DHC-60.5
     - DHC-60.7
     - DHC-80.3
@@ -2144,6 +2171,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -2164,7 +2192,7 @@ values:
     - DTR-70.4
     - DTR-70.6
     - DTR-80.3
-    - HT-R993(Ether)
+    - HT-R993
     - PR-RZ5100
     - PR-SC5509
     - PR-SC5530
@@ -2177,19 +2205,22 @@ values:
     - TX-NR5009
     - TX-NR5010
     - TX-NR616
+    - TX-NR616AE
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-RZ1100
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ800
     - TX-RZ810
     - TX-RZ820
@@ -2201,9 +2232,6 @@ values:
   '23':
     description: sets Stage (when Genre Control is Enable in Japan Model)
     models: &id005
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-60.5
     - DHC-60.7
     - DHC-80.6
@@ -2223,9 +2251,9 @@ values:
     - DTR-60.7
     - DTR-70.4
     - DTR-70.6
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC560
     - HT-RC660
     - PR-SC5530
     - TX-NR1010
@@ -2233,17 +2261,20 @@ values:
     - TX-NR3030
     - TX-NR5010
     - TX-NR515
+    - TX-NR515AE
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR646
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-RZ800
     - TX-RZ900
@@ -2263,9 +2294,6 @@ values:
   '40':
     description: sets Straight Decode
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -2297,6 +2325,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -2354,10 +2383,10 @@ values:
     - DTX-8.8
     - DTX-8.9
     - DTX-9.9
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -2379,43 +2408,45 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2424,18 +2455,21 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2465,9 +2499,6 @@ values:
   '41':
     description: sets Dolby EX
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -2522,8 +2553,8 @@ values:
     - DTX-8.8
     - DTX-8.9
     - DTX-9.9
-    - HT-R693(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-RC560
     - HT-RC660
     - PR-SC5507
     - PR-SC5508
@@ -2545,24 +2576,27 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR515
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR515AE
+    - TX-NR579
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR905
     - TX-NR906
     - TX-NR929
@@ -2584,8 +2618,6 @@ values:
   '42':
     description: sets THX Cinema
     models:
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -2608,6 +2640,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -2662,7 +2695,7 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R993(Ether)
+    - HT-R993
     - PR-RZ5100
     - PR-SC5507
     - PR-SC5508
@@ -2690,18 +2723,19 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
-    - TX-NR686(Ether)
+    - TX-NR616AE
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2710,15 +2744,18 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -2752,8 +2789,6 @@ values:
   '43':
     description: sets THX Surround EX
     models:
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -2816,7 +2851,7 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R993(Ether)
+    - HT-R993
     - PR-SC5507
     - PR-SC5508
     - PR-SC5509
@@ -2843,21 +2878,23 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR905
     - TX-NR906
     - TX-NR929
@@ -2887,8 +2924,6 @@ values:
   '44':
     description: sets THX Music
     models: &id006
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -2911,6 +2946,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -2950,7 +2986,7 @@ values:
     - DTR-9.9
     - DTX-8.9
     - DTX-9.9
-    - HT-R993(Ether)
+    - HT-R993
     - PR-RZ5100
     - PR-SC5507
     - PR-SC5508
@@ -2973,18 +3009,19 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
-    - TX-NR686(Ether)
+    - TX-NR616AE
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -2993,14 +3030,17 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3029,8 +3069,6 @@ values:
   '50':
     description: sets THX U(2)/S(2)/I/S Cinema/Cinema2
     models: &id007
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -3053,6 +3091,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -3106,7 +3145,7 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R993(Ether)
+    - HT-R993
     - PR-RZ5100
     - PR-SC5507
     - PR-SC5508
@@ -3134,18 +3173,19 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
-    - TX-NR686(Ether)
+    - TX-NR616AE
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3154,15 +3194,18 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3218,9 +3261,6 @@ values:
   '80':
     description: sets PLII/PLIIx Movie, Dolby Atmos/Dolby Surround
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -3252,6 +3292,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -3325,10 +3366,10 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -3352,44 +3393,46 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3398,19 +3441,22 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR901
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3448,9 +3494,6 @@ values:
   '81':
     description: sets PLII/PLIIx Music
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -3521,9 +3564,9 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-SC5507
     - PR-SC5508
@@ -3543,33 +3586,36 @@ values:
     - TX-NR3008
     - TX-NR3009
     - TX-NR3010
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR535
+    - TX-NR579
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR901
     - TX-NR905
     - TX-NR906
@@ -3598,9 +3644,6 @@ values:
   '82':
     description: sets Neo:6 Cinema/Neo:X Cinema, DTS:X/Neural:X
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -3632,6 +3675,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -3704,10 +3748,10 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -3731,44 +3775,46 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -3777,19 +3823,22 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR901
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -3827,9 +3876,6 @@ values:
   '83':
     description: sets Neo:6 Music/Neo:X Music
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -3912,10 +3958,10 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-SC5507
     - PR-SC5508
@@ -3938,38 +3984,41 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
+    - TX-NR414
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR579
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
+    - TX-NR646
+    - TX-NR656
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR901
     - TX-NR905
     - TX-NR906
@@ -4003,8 +4052,6 @@ values:
   '84':
     description: sets PLII/PLIIx THX Cinema, Dolby Surround THX Cinema
     models:
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -4026,6 +4073,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -4106,18 +4154,19 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
-    - TX-NR686(Ether)
+    - TX-NR616AE
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -4126,16 +4175,19 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR901
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -4172,8 +4224,6 @@ values:
   '85':
     description: sets Neo:6/Neo:X THX Cinema, DTS Neural:X THX Cinema
     models:
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -4196,6 +4246,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -4254,7 +4305,7 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R993(Ether)
+    - HT-R993
     - PR-RZ5100
     - PR-SC5507
     - PR-SC5508
@@ -4282,18 +4333,19 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
-    - TX-NR686(Ether)
+    - TX-NR616AE
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -4302,16 +4354,19 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR901
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -4348,9 +4403,6 @@ values:
   '86':
     description: sets PLII/PLIIx Game
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -4416,9 +4468,9 @@ values:
     - DTX-8.9
     - DTX-9.9
     - ETX-NA1000
-    - HT-R693(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-SC5507
     - PR-SC5508
@@ -4438,33 +4490,36 @@ values:
     - TX-NR3008
     - TX-NR3009
     - TX-NR3010
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5000
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR535
+    - TX-NR579
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR905
     - TX-NR906
     - TX-NR929
@@ -4543,8 +4598,6 @@ values:
   '89':
     description: sets PLII/PLIIx THX Games, Dolby Surround THX Games
     models:
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -4566,6 +4619,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -4630,18 +4684,19 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
-    - TX-NR686(Ether)
+    - TX-NR616AE
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -4650,15 +4705,18 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -4691,8 +4749,6 @@ values:
   8A:
     description: sets Neo:6/Neo:X THX Games, DTS Neural:X THX Games
     models:
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -4715,6 +4771,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -4760,7 +4817,7 @@ values:
     - DTX-8.8
     - DTX-8.9
     - DTX-9.9
-    - HT-R993(Ether)
+    - HT-R993
     - PR-RZ5100
     - PR-SC5507
     - PR-SC5508
@@ -4785,18 +4842,19 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
-    - TX-NR686(Ether)
+    - TX-NR616AE
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -4805,15 +4863,18 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR905
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -4846,8 +4907,6 @@ values:
   8B:
     description: sets PLII/PLIIx THX Music, Dolby Surround THX Music
     models:
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -4869,6 +4928,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -4925,18 +4985,19 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
-    - TX-NR686(Ether)
+    - TX-NR616AE
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -4945,14 +5006,17 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR906
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -5024,9 +5088,6 @@ values:
   '90':
     description: sets PLIIz Height
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -5060,8 +5121,8 @@ values:
     - DTR-80.1
     - DTR-80.2
     - DTR-80.3
-    - HT-R693(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-RC560
     - HT-RC660
     - PR-SC5507
     - PR-SC5508
@@ -5079,22 +5140,25 @@ values:
     - TX-NR5009
     - TX-NR5010
     - TX-NR515
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR515AE
+    - TX-NR579
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-SR707
     name: pliiz-height
@@ -5126,8 +5190,6 @@ values:
   '94':
     description: sets PLIIz Height + THX Cinema
     models: &id010
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -5172,19 +5234,21 @@ values:
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-SR707
     name: pliiz-height-thx-cinema
@@ -5199,7 +5263,6 @@ values:
   '97':
     description: sets PLIIz Height + THX U2/S2 Cinema
     models: &id011
-    - /818AE
     - DHC-40.1
     - DHC-80.1
     - DHC-80.2
@@ -5232,6 +5295,7 @@ values:
     - TX-NR5010
     - TX-NR807
     - TX-NR818
+    - TX-NR818AE
     - TX-NR929
     - TX-SR707
     name:
@@ -5252,7 +5316,6 @@ values:
   9A:
     description: sets Neo:X Game
     models:
-    - /818AE
     - DHC-80.3
     - DHC-80.6
     - DTR-50.4
@@ -5273,6 +5336,7 @@ values:
     - TX-NR5009
     - TX-NR5010
     - TX-NR818
+    - TX-NR818AE
     - TX-NR929
     name: neo-x-game
   A0:
@@ -5342,6 +5406,16 @@ values:
     description: sets Listening Mode Wrap-Around Up
     models: []
     name: auto
+  B0:
+    description: sets AURO-3D
+    models: &id014
+    - DRX-8.4
+    - TX-RZ70
+    name: auro-3d
+  B1:
+    description: sets Auro Surround
+    models: *id014
+    name: auro-surround
   DOWN:
     description: sets Listening Mode Wrap-Around Down
     models: *id001
@@ -5352,10 +5426,7 @@ values:
     name: auto-surround
   GAME:
     description: sets Listening Mode Wrap-Around Up
-    models: &id014
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
+    models: &id015
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -5386,6 +5457,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -5431,10 +5503,10 @@ values:
     - DTR-80.2
     - DTR-80.3
     - DTX-5.9
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-RZ5100
     - PR-SC5507
@@ -5451,43 +5523,45 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
+    - TX-NR414
+    - TX-NR474
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR5100
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR6050
-    - TX-NR609(Ether)
+    - TX-NR609
     - TX-NR6100
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
-    - TX-NR686(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
     - TX-NR696
     - TX-NR708
     - TX-NR709
     - TX-NR7100
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR757
     - TX-NR777
     - TX-NR787
@@ -5496,16 +5570,19 @@ values:
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730
@@ -5526,11 +5603,11 @@ values:
     name: game
   MOVIE:
     description: sets Listening Mode Wrap-Around Up
-    models: *id014
+    models: *id015
     name: movie
   MUSIC:
     description: sets Listening Mode Wrap-Around Up
-    models: *id014
+    models: *id015
     name: music
   QSTN:
     description: gets The Listening Mode

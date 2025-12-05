@@ -6,8 +6,11 @@ values:
     models: &id001
     - DRX-3.4
     - DRX-5.4
+    - DRX-8.4
     - TX-NR7100
+    - TX-RZ30
     - TX-RZ50
+    - TX-RZ70
     name: a00
   A01:
     description: Dirac on and select slot1 (All selector)
@@ -41,9 +44,14 @@ values:
     description: get the Dirac slot selection
     models: *id001
     name: query
+  TG:
+    description: Dirac slot selectsets Wrap-Around
+    models: *id001
+    name: toggle
   '{xx}x':
     description: "x: Slot status\n    0: No data exists\n    1 : Data exists\n   \
-      \ 2: Currently selected\n\n(Each character corresponds to one slot, and if there\
-      \ are 3 slots, it will be 3 characters)"
+      \ 2: Currently selected\n    3: Data exists(Dirac Live Bass Control)\n    4:\
+      \ Currently selected(Dirac Live Bass Control)\n\n(Each character corresponds\
+      \ to one slot, and if there are 3 slots, it will be 3 characters)"
     models: *id001
     name: xx-x

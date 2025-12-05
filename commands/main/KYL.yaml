@@ -1,0 +1,30 @@
+description: Front Key Lock Control
+name: front-key-lock-control
+values:
+  '00':
+    description: sets Front Key Lock Off
+    models: &id001
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: 'off'
+  '01':
+    description: sets Front Key Lock On
+    models: *id001
+    name: 'on'
+  QSTN:
+    description: gets Front Key Lock State
+    models: *id001
+    name: query
+  UP:
+    description: sets Front Key Lock Wrap-Around Up
+    models: *id001
+    name: up

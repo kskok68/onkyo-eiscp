@@ -5,8 +5,10 @@ values:
     description: sets Pre Amp Mode Off
     models: &id001
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1.3
     - TX-RZ3400
+    - TX-RZ70
     name: 'off'
   '01':
     description: sets Pre Amp Mode Front
@@ -14,7 +16,10 @@ values:
     name: front
   '03':
     description: sets Pre Amp Mode Front+Center
-    models: *id001
+    models:
+    - DRX-7.3
+    - DRX-R1.3
+    - TX-RZ3400
     name: front-center
   '07':
     description: sets Pre Amp Mode All

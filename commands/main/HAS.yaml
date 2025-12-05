@@ -20,21 +20,21 @@ values:
     - DTR-60.6
     - DTR-60.7
     - DTR-70.6
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC560
     - HT-RC660
     - PR-SC5530
     - TX-NR1030
     - TX-NR3030
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR646
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-RZ800
     - TX-RZ900

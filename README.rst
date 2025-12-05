@@ -11,9 +11,19 @@ parsing the official documentation. Even if you are not using
 Python, you may find this file useful when implementing your own
 interface. See further down below for more information.
 
+You Can Help!
+------------
+Newer versions of this library are only possible by getting update ISCP_AVR_*.xlsx files with the new protocols.  These files are normally only given to dealers/installers so if you have a newer version please email it to me (my email is on [my github page](https://github.com/mitchcapper) although you may need to sign in to see it) so we can support newer functions.
+
+ Brand new receivers will generally work with this library out of the box, but the model filtering will not work as it won't know about the new version.  If you want the model filter functions to work, I recommend finding the prior model number and either editing the library adding the new one to its groups, or tell this library that your model is the last model.
+
+Special Thanks
+------------
+ - (https://github.com/vslavik for new ISCP_AVR protocol file:)
+
 Changes from original repo
 ------------
-This has a much more comprehensive excel parser for the protocol file to the yaml files.  It allows for version changes without having to many numerous manual code changes.  It also has AVR 148 as the latest protocol with is several years newer.  Note the easy_install installs the original version not with these enhancements (until it is merged into master).
+This has a much more comprehensive excel parser for the protocol file to the yaml files.  It allows for version changes without having to many numerous manual code changes.  It also has AVR 153 as the latest protocol with is nearly a decade newer.  Note the easy_install installs the original version not with these enhancements (until it is merged into master).
 
 
 Installation
@@ -49,7 +59,7 @@ You can select a specific one by filtering by name::
     $ onkyo --discover
     TX-NR709 192.168.178.200:60128 0009B0D34163
     TX-NR609 192.168.178.169:60128 0009B0D24B75
-   
+
     $ onkyo -n 709 system-power=on
 
 This will only turn on the TX-NR709 device.
@@ -255,7 +265,7 @@ identifiers that can be understood by humans, and which include
 descriptions.
 
 Parsing the Onkyo Excel document gets you astonishingly far, but
-there's a limit. 
+there's a limit.
 ~~The YAML file requires manual edits and fixes where
 the parser fails, including a lot of cosmetic corrections. Some of
 those have been made, but there's significant room for improving

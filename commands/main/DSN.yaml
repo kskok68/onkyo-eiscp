@@ -4,8 +4,10 @@ values:
   QSTN:
     description: gets Station Name
     models: &id001
-    - TX-8270(Ether)
+    - DTM-7.4
+    - TX-8270
     - TX-8390
+    - TX-8470
     name: query
   "xx\u2026xx":
     description: "xx...xx   : DAB Station Name (UTF-8)\n\u4E0B\u8A18\u6587\u5B57\u306F\

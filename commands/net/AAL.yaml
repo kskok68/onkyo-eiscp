@@ -4,9 +4,6 @@ values:
   QSTN:
     description: gets iPod Album Name
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-80.1
@@ -27,19 +24,19 @@ values:
     - TX-NR5007
     - TX-NR5008
     - TX-NR515
+    - TX-NR515AE
     - TX-NR616
+    - TX-NR616AE
     - TX-NR708
     - TX-NR807
     - TX-NR808
     - TX-NR818
+    - TX-NR818AE
     name: query
   nnnnnnn:
     description: NET/USB Album Name (variable-length, 64 Unicode letters [UTF-8 encoded]
       max , for Network Control only)
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-80.1
     - DTR-40.1
@@ -51,6 +48,9 @@ values:
     - TX-NR3007
     - TX-NR5007
     - TX-NR515
+    - TX-NR515AE
     - TX-NR616
+    - TX-NR616AE
     - TX-NR807
     - TX-NR818
+    - TX-NR818AE

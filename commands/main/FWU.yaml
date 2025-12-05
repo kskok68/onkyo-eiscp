@@ -3,11 +3,23 @@ name: usb-firmware-status
 values:
   QSTN:
     description: gets The USB Firmware Status
-    models: []
+    models: &id001
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - DTM-7.4
+    - TX-8470
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
     name: query
-  urxyy:
+  urrrr:
     description: "u:  USB Firmware Status\n    0: not exist USB firmware\n    1 :\
-      \ exist USB firmware\nr: reserve\nx: USB Firmware Package Major Version\nyy:\
-      \ USB Firmware Package Minor Version"
-    models: []
-    name: urxyy
+      \ exist USB firmware\nr: reserve"
+    models: *id001
+    name: urrrr

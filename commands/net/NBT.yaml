@@ -9,10 +9,10 @@ values:
     - DTR-40.5
     - DTR-50.5
     - DTR-60.5
-    - HT-RC560(Ether)
+    - HT-RC560
     - TX-NR626
-    - TX-NR727(Ether)
-    - TX-NR828(Ether)
+    - TX-NR727
+    - TX-NR828
     - TX-NR929
     name: clear
   PAIRING:

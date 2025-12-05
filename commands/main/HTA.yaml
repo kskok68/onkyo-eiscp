@@ -1,0 +1,32 @@
+description: HDCP Timing Adjust
+name: hdcp-timing-adjust
+values:
+  ? - -4
+    - 6
+  : description: sets HDMI Timing Adjust -4 - 0 - +6
+    models: &id001
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - DTM-7.4
+    - TX-8470
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+  UP:
+    description: HDMI Timing Adjust +
+    models: *id001
+    name: up
+  DOWN:
+    description: HDMI Timing Adjust -
+    models: *id001
+    name: down
+  QSTN:
+    description: gets the HDMI Timing Adjust
+    models: *id001
+    name: query

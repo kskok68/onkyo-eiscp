@@ -1,0 +1,21 @@
+description: Discrete Audio Path Mode/Audio Exclusive Mode
+name: discrete-audio-path-mode-audio-exclusive-mode
+values:
+  '00':
+    description: sets Discrete Audio Path Mode/Audio Exclusive Mode Off
+    models: &id001
+    - DRX-8.4
+    - TX-RZ70
+    name: 'off'
+  '01':
+    description: sets Discrete Audio Path Mode/Audio Exclusive Mode On
+    models: *id001
+    name: 'on'
+  QSTN:
+    description: gets The Discrete Audio Path Mode/Audio Exclusive Mode State
+    models: *id001
+    name: query
+  UP:
+    description: sets Discrete Audio Path Mode/Audio Exclusive Mode Wrap-Around Up
+    models: *id001
+    name: up

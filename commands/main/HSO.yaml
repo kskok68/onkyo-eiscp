@@ -1,0 +1,56 @@
+description: HDMI Diagnostic Source Test
+name: hdmi-diagnostic-source-test
+values:
+  QSTN:
+    description: gets Source Test Result
+    models: &id001
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - DTM-7.4
+    - TX-8470
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: query
+  R00:
+    description: Cable Connection Error
+    models: *id001
+    name: r00
+  R01:
+    description: Signal No Detected
+    models: *id001
+    name: r01
+  RFE:
+    description: Source Test Ready
+    models: *id001
+    name: rfe
+  RFF:
+    description: Signal Detected
+    models: *id001
+    name: rff
+  T00:
+    description: Source Test Stop
+    models: *id001
+    name: t00
+  T01:
+    description: Source Test Ready
+    models: *id001
+    name: t01
+  T02:
+    description: Source Test Start(HDMI1.4)
+    models: *id001
+    name: t02
+  T03:
+    description: Source Test Start(HDMI2.0)
+    models: *id001
+    name: t03
+  T04:
+    description: Source Test Start(HDMI2.1)
+    models: *id001
+    name: t04

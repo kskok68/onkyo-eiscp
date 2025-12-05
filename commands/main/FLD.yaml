@@ -3,11 +3,24 @@ name: fl-display-information
 values:
   QSTN:
     description: gets FL Display Information
-    models: []
+    models: &id001
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - DTM-7.4
+    - TX-8470
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
     name: query
   '{xx}{xx}{xx}{xx}{xx}x':
     description: 'FL Display Information
 
       Character Code for FL Display (UTF-8 encoded)'
-    models: []
+    models: *id001
     name: xx-xx-xx-xx-xx-x

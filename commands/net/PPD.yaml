@@ -1,0 +1,85 @@
+description: Privacy Policy Display Command
+name: privacy-policy-display
+values:
+  NON:
+    description: response command to the application side, sent back when not displayed
+      by NCP.
+    models:
+    - DTM-7.4
+    - TX-8470
+    name: non
+  ab:
+    description: "a: Display Type   \n0              Privacy Policy\n1           \
+      \      UsageData\n\nb: Display Method\n0              NCP\n1               \
+      \  NCP Force (Forced display regardless of settings)\n2                 NCP\
+      \ and OSD\n3                 NCP and OSD Force (Forced display regardless of\
+      \ settings)"
+    models:
+    - DRC-R1
+    - DRC-R1.1
+    - DRC-R1.3
+    - DRX-2
+    - DRX-2.1
+    - DRX-2.3
+    - DRX-2.4
+    - DRX-3
+    - DRX-3.1
+    - DRX-3.2
+    - DRX-3.3
+    - DRX-3.4
+    - DRX-4
+    - DRX-4.2
+    - DRX-4.3
+    - DRX-5
+    - DRX-5.2
+    - DRX-5.3
+    - DRX-5.4
+    - DRX-7
+    - DRX-7.1
+    - DRX-7.3
+    - DRX-8.4
+    - DRX-R1
+    - DRX-R1.1
+    - DRX-R1.3
+    - DTM-7
+    - DTM-7.4
+    - PR-RZ5100
+    - TX-8270
+    - TX-8390
+    - TX-NR474
+    - TX-NR5100
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR585
+    - TX-NR595
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
+    - TX-NR686
+    - TX-NR696
+    - TX-NR7100
+    - TX-NR757
+    - TX-NR777
+    - TX-NR787
+    - TX-NR797
+    - TX-RZ1100
+    - TX-RZ30
+    - TX-RZ3100
+    - TX-RZ3400
+    - TX-RZ50
+    - TX-RZ610
+    - TX-RZ620
+    - TX-RZ70
+    - TX-RZ710
+    - TX-RZ720
+    - TX-RZ730
+    - TX-RZ740
+    - TX-RZ810
+    - TX-RZ820
+    - TX-RZ830
+    - TX-RZ840
+    - TX-RZ920
+    name: ab

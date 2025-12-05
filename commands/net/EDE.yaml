@@ -27,7 +27,8 @@ values:
     name: indx
   QSTN:
     description: gets Download status
-    models: []
+    models:
+    - TX-8470
     name: query
   SALLnn:
     description: 'Suspending

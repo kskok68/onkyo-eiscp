@@ -1,0 +1,26 @@
+description: Input Selector Skip
+name: input-selector-skip
+values:
+  iixx:
+    description: 'sets Input Skip Setting
+
+      ii: Selector Number (the same as for SLI command)
+
+      xx: 00 = Use, 01 = Skip'
+    models:
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - DTM-7.4
+    - TX-8470
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name:
+    - ii-number-the-same-as-for-sli-command-xx-00-use
+    - '01'

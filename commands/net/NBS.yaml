@@ -9,10 +9,10 @@ values:
     - DTR-40.5
     - DTR-50.5
     - DTR-60.5
-    - HT-RC560(Ether)
+    - HT-RC560
     - TX-NR626
-    - TX-NR727(Ether)
-    - TX-NR828(Ether)
+    - TX-NR727
+    - TX-NR828
     - TX-NR929
     name: 'off'
   'ON':
@@ -22,9 +22,6 @@ values:
   QSTN:
     description: gets Bluetooth Setting
     models:
-    - /515AE(Ether)
-    - /616AE(Ether)
-    - /818AE
     - DHC-40.1
     - DHC-40.2
     - DHC-60.5
@@ -66,10 +63,10 @@ values:
     - DTR-80.1
     - DTR-80.2
     - DTR-80.3
-    - HT-R693(Ether)
-    - HT-R993(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-R993
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
     - PR-SC5507
     - PR-SC5508
@@ -85,34 +82,37 @@ values:
     - TX-NR3009
     - TX-NR3010
     - TX-NR3030
-    - TX-NR414(Ether)
+    - TX-NR414
     - TX-NR5007
     - TX-NR5008
     - TX-NR5009
     - TX-NR5010
-    - TX-NR509(Ether)
+    - TX-NR509
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR579
+    - TX-NR609
     - TX-NR616
+    - TX-NR616AE
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
+    - TX-NR646
     - TX-NR708
     - TX-NR709
-    - TX-NR717(Ether)
-    - TX-NR727(Ether)
-    - TX-NR737(Ether)
-    - TX-NR747(Ether)
+    - TX-NR717
+    - TX-NR727
+    - TX-NR737
+    - TX-NR747
     - TX-NR807
     - TX-NR808
     - TX-NR809
     - TX-NR818
-    - TX-NR828(Ether)
-    - TX-NR838(Ether)
+    - TX-NR818AE
+    - TX-NR828
+    - TX-NR838
     - TX-NR929
     - TX-RZ800
     - TX-RZ900

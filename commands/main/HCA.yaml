@@ -1,0 +1,122 @@
+description: HDMI Diagnostic Cable Test
+name: hdmi-diagnostic-cable-test
+values:
+  QSTN:
+    description: gets Cable Test Result
+    models: &id001
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - DTM-7.4
+    - TX-8470
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: query
+  R00:
+    description: Cable Connection Error
+    models: *id001
+    name: r00
+  R01:
+    description: 480p Failed
+    models: *id001
+    name: r01
+  R02:
+    description: 720p Failed
+    models: *id001
+    name: r02
+  R03:
+    description: 1080p Failed
+    models: *id001
+    name: r03
+  R04:
+    description: 4K24p Failed
+    models: *id001
+    name: r04
+  R05:
+    description: 4K60p Failed
+    models: *id001
+    name: r05
+  R06:
+    description: 8K24p Failed
+    models: &id002
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: r06
+  R07:
+    description: 8K60p Failed
+    models: *id002
+    name: r07
+  RFE:
+    description: Cable Test Ready
+    models: *id001
+    name: rfe
+  RFF:
+    description: Cable Test Complete
+    models: *id001
+    name: rff
+  S01:
+    description: 480p Started
+    models: *id001
+    name: s01
+  S02:
+    description: 720p Started
+    models: *id001
+    name: s02
+  S03:
+    description: 1080p Started
+    models: *id001
+    name: s03
+  S04:
+    description: 4K24p Started
+    models: *id001
+    name: s04
+  S05:
+    description: 4K60p Started
+    models: *id001
+    name: s05
+  S06:
+    description: 8K24p Started
+    models: &id003
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - DTM-7.4
+    - TX-8470
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: s06
+  S07:
+    description: 8K60p Started
+    models: *id003
+    name: s07
+  T00:
+    description: HDMI Diagnostic Cable Test Stop
+    models: *id001
+    name: t00
+  T01:
+    description: HDMI Diagnostic Cable Test Ready
+    models: *id001
+    name: t01
+  T02:
+    description: HDMI Diagnostic Cable Test Start
+    models: *id001
+    name: t02

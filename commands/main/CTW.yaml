@@ -4,7 +4,7 @@ values:
   00"~"07:
     description: sets Center Width
     models: &id001
-    - TX-NR474(Ether)
+    - TX-NR474
   DOWN:
     description: sets Center Width Down
     models: *id001

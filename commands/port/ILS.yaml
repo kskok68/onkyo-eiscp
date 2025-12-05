@@ -32,9 +32,9 @@ values:
     - TX-NR3009
     - TX-NR5008
     - TX-NR5009
-    - TX-NR509(Ether)
-    - TX-NR579(Ether)
-    - TX-NR609(Ether)
+    - TX-NR509
+    - TX-NR579
+    - TX-NR609
     - TX-NR708
     - TX-NR709
     - TX-NR808

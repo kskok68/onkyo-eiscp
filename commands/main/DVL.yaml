@@ -4,7 +4,6 @@ values:
   '00':
     description: sets Dolby Volume Off
     models: &id001
-    - /818AE
     - DHC-80.1
     - DHC-80.2
     - DHC-80.3
@@ -34,6 +33,7 @@ values:
     - TX-NR709
     - TX-NR809
     - TX-NR818
+    - TX-NR818AE
     name: 'off'
   '01':
     description: sets Dolby Volume Low/On

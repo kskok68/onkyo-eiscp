@@ -1,0 +1,24 @@
+description: Dirac Live Bass Control
+name: dirac-live-bass-control
+values:
+  '00':
+    description: sets Dirac Live Bass Control Off
+    models: &id001
+    - DRX-5.4
+    - DRX-8.4
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: 'off'
+  '01':
+    description: sets Dirac Live Bass Control On
+    models: *id001
+    name: 'on'
+  QSTN:
+    description: gets Dirac Live Bass Control State
+    models: *id001
+    name: query
+  UP:
+    description: sets Dirac Live Bass Control Wrap-Around Up
+    models: *id001
+    name: up

@@ -1,4 +1,1 @@
-Update the commands module
---------------------------
-
-$ python generate_commands_module.py eiscp-commands.yaml > eiscp/commands.py
+See the RELEASING.md for the process

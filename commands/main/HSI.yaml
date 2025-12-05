@@ -1,0 +1,137 @@
+description: HDMI Diagnostic Sink Test
+name: hdmi-diagnostic-sink-test
+values:
+  QSTN:
+    description: gets Sink Test Result
+    models: &id001
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - DTM-7.4
+    - TX-8470
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: query
+  R00:
+    description: Sink Test NG
+    models:
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: r00
+  RFE:
+    description: Sink Test Ready
+    models: *id001
+    name: rfe
+  RFF:
+    description: Sink Test OK
+    models: *id001
+    name: rff
+  S01:
+    description: 480p Started
+    models: *id001
+    name: s01
+  S02:
+    description: 720p Started
+    models: *id001
+    name: s02
+  S03:
+    description: 1080p Started
+    models: *id001
+    name: s03
+  S04:
+    description: 4K24p Started
+    models: *id001
+    name: s04
+  S05:
+    description: 4K60p Started
+    models: *id001
+    name: s05
+  S06:
+    description: 8k24p/32Gbps Started
+    models: &id002
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: s06
+  S07:
+    description: 8k24p/40Gbps Started
+    models: *id002
+    name: s07
+  S08:
+    description: 8k60p/32Gbps Started
+    models: *id002
+    name: s08
+  S09:
+    description: 8k60p/40Gbps Started
+    models: *id002
+    name: s09
+  T00:
+    description: Sink Test Stop
+    models: *id001
+    name: t00
+  T01:
+    description: Sink Test Ready
+    models: *id001
+    name: t01
+  T02:
+    description: Sink Test Start(480p)
+    models: *id001
+    name: t02
+  T03:
+    description: Sink Test Start(720p)
+    models: *id001
+    name: t03
+  T04:
+    description: Sink Test Start(1080p)
+    models: *id001
+    name: t04
+  T05:
+    description: Sink Test Start(4K24p)
+    models: *id001
+    name: t05
+  T06:
+    description: Sink Test Start(4K60p)
+    models: *id001
+    name: t06
+  T07:
+    description: Sink Test Start(8K24p)
+    models: &id003
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - DTM-7.4
+    - TX-8470
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: t07
+  T08:
+    description: Sink Test Start(8K60p)
+    models: *id003
+    name: t08

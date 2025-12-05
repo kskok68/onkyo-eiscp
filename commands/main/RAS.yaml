@@ -4,7 +4,6 @@ values:
   '00':
     description: sets Cinema Filter Off
     models: &id001
-    - /515AE(Ether)
     - DRX-2
     - DRX-2.1
     - DRX-2.3
@@ -31,29 +30,30 @@ values:
     - DTR-6.3
     - DTX-5.8
     - DTX-5.9
-    - HT-R693(Ether)
-    - HT-RC550(Ether)
-    - HT-RC560(Ether)
+    - HT-R693
+    - HT-RC550
+    - HT-RC560
     - HT-RC660
-    - TX-NR414(Ether)
-    - TX-NR474(Ether)
-    - TX-NR509(Ether)
+    - TX-NR414
+    - TX-NR474
+    - TX-NR509
     - TX-NR515
+    - TX-NR515AE
     - TX-NR525
-    - TX-NR535(Ether)
-    - TX-NR545(Ether)
-    - TX-NR555(Ether)
-    - TX-NR575(Ether)
-    - TX-NR575E(Ether)
-    - TX-NR579(Ether)
-    - TX-NR585(Ether)
+    - TX-NR535
+    - TX-NR545
+    - TX-NR555
+    - TX-NR575
+    - TX-NR575E
+    - TX-NR579
+    - TX-NR585
     - TX-NR595
     - TX-NR626
     - TX-NR636
-    - TX-NR646(Ether)
-    - TX-NR656(Ether)
-    - TX-NR676(Ether)
-    - TX-NR676E(Ether)
+    - TX-NR646
+    - TX-NR656
+    - TX-NR676
+    - TX-NR676E
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630

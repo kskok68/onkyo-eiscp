@@ -82,10 +82,12 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
     - DTM-7
+    - DTM-7.4
     - DTR-20.4
     - DTR-20.7
     - DTR-30.4
@@ -113,12 +115,14 @@ values:
     - TX-NR787
     - TX-NR797
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
     - TX-RZ50
     - TX-RZ610
     - TX-RZ620
     - TX-RZ630
+    - TX-RZ70
     - TX-RZ710
     - TX-RZ720
     - TX-RZ730

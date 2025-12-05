@@ -8,9 +8,11 @@ values:
     - DRC-R1.3
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1.1
     - DRX-R1.3
     - TX-RZ3400
+    - TX-RZ70
     name: x1
   '01':
     description: sets Upsampling x2

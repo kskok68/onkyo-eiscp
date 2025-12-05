@@ -1,0 +1,32 @@
+description: Video Select
+name: video-select
+values:
+  LAST:
+    description: sets Video Select Last
+    models: &id001
+    - DRX-2.4
+    - DRX-3.4
+    - DRX-5.4
+    - DRX-8.4
+    - DTM-7.4
+    - TX-8470
+    - TX-NR5100
+    - TX-NR6050
+    - TX-NR6100
+    - TX-NR7100
+    - TX-RZ30
+    - TX-RZ50
+    - TX-RZ70
+    name: last
+  QSTN:
+    description: gets Video Select State
+    models: *id001
+    name: query
+  UP:
+    description: sets Video Select Wrap-Around
+    models: *id001
+    name: up
+  xx:
+    description: sets Video Select xx=SLI Number
+    models: *id001
+    name: xx-sli-number

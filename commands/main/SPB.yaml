@@ -5,12 +5,14 @@ values:
     description: sets Speaker Off
     models: &id002
     - DTM-7
+    - DTM-7.4
     - DTR-10.5
     - DTR-5.2
     - ETX-NA1000
     - RDC-7.1
-    - TX-8270(Ether)
+    - TX-8270
     - TX-8390
+    - TX-8470
     - TX-NR1000
     - TX-NR5000
     name: 'off'
@@ -18,12 +20,14 @@ values:
     description: sets Speaker On
     models: &id001
     - DTM-7
+    - DTM-7.4
     - DTR-10.5
     - DTR-5.2
     - ETX-NA1000
     - RDC-7.1
-    - TX-8270(Ether)
+    - TX-8270
     - TX-8390
+    - TX-8470
     - TX-NA905
     - TX-NA906
     - TX-NA906X

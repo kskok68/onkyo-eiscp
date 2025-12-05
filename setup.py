@@ -18,8 +18,8 @@ if os.path.isfile(requirement_path):
         install_requires = f.read().splitlines()
 setup(
     name='onkyo-eiscp',
-    version='1.4.0',
-    url='https://github.com/miracle2k/onkyo-eiscp',
+    version='1.5.3',
+    url='https://github.com/mitchcapper/onkyo-eiscp',
     license='MIT',
     author='Michael Elsdörfer',
     author_email='michael@elsdoerfer.com',

@@ -11,13 +11,16 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
     - PR-RZ5100
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
+    - TX-RZ70
     - TX-RZ920
   ? - -15
     - 12
@@ -39,6 +42,7 @@ values:
     - DRX-7
     - DRX-7.1
     - DRX-7.3
+    - DRX-8.4
     - DRX-R1
     - DRX-R1.1
     - DRX-R1.3
@@ -49,8 +53,10 @@ values:
     - TX-NR1030
     - TX-NR3030
     - TX-RZ1100
+    - TX-RZ30
     - TX-RZ3100
     - TX-RZ3400
+    - TX-RZ70
     - TX-RZ920
     name: up
   DOWN:
