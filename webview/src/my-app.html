@@ -1,0 +1,28 @@
+<import from="./components/model-picker"></import>
+<import from="./components/zone-tabs"></import>
+<import from="./components/search-bar"></import>
+<import from="./components/command-list"></import>
+<import from="./components/command-detail"></import>
+
+<div class="app-shell">
+  <header class="topbar">
+    <h1>eISCP Command Explorer</h1>
+    <model-picker></model-picker>
+  </header>
+
+  <zone-tabs></zone-tabs>
+
+  <section class="search-row">
+    <search-bar></search-bar>
+  </section>
+
+  <section class="content-grid">
+    <aside class="command-pane">
+      <command-list></command-list>
+    </aside>
+
+    <main class="detail-pane">
+      <command-detail></command-detail>
+    </main>
+  </section>
+</div>

@@ -1,0 +1,23 @@
+<import from="./value-row"></import>
+
+<section class="command-detail">
+  <p if.bind="!selectedCommand" class="empty-state">
+    Select a command from the list to inspect values and compose raw ISCP.
+  </p>
+
+  <template else>
+    <header class="command-header">
+      <h2>Selected: ${selectedCommand.zone} / ${selectedCommand.code} ${selectedCommand.name}</h2>
+      <p><strong>Aliases:</strong> ${aliasesText}</p>
+      <p class="pre-wrap">${selectedCommand.description}</p>
+    </header>
+
+    <section class="values-list">
+      <value-row
+        repeat.for="value of availableValues"
+        command.bind="selectedCommand"
+        value.bind="value">
+      </value-row>
+    </section>
+  </template>
+</section>

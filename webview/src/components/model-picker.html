@@ -1,0 +1,21 @@
+<div class="model-picker">
+  <label for="model-input">Model</label>
+  <div class="model-input-wrap">
+    <input
+      id="model-input"
+      value.bind="query"
+      focus.trigger="showSuggestions = true"
+      blur.trigger="hideSuggestionsSoon()"
+      keyup.enter.trigger="applyQuery()"
+      placeholder="Search receiver model">
+    <button class="default-btn" click.trigger="useDefault()">Default</button>
+  </div>
+
+  <ul class="suggestions" if.bind="showSuggestions">
+    <li repeat.for="model of suggestions">
+      <button mousedown.trigger="chooseModel(model)">${model}</button>
+    </li>
+  </ul>
+
+  <small class="selected-model">Selected: ${state.model ?? '—'}</small>
+</div>

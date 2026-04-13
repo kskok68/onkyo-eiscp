@@ -1,0 +1,22 @@
+<article class="value-row">
+  <div class="value-meta">
+    <code>${keyDisplay}</code>
+    <strong>${value.names[0] ?? ''}</strong>
+    <p class="pre-wrap">${value.description}</p>
+  </div>
+
+  <div class="value-actions">
+    <template if.bind="value.key.kind === 'literal'">
+      <span class="raw-output">Raw: <code>${result.ok ? result.raw : ''}</code></span>
+    </template>
+
+    <template else>
+      <input value.bind="userInput" placeholder.bind="placeholder">
+      <span if.bind="result.ok" class="raw-output">Raw: <code>${result.raw}</code></span>
+      <span else class="err">${result.error}</span>
+    </template>
+
+    <button click.trigger="copy()" disabled.bind="!result.ok">Copy</button>
+    <small>${copyStatus}</small>
+  </div>
+</article>

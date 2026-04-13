@@ -1,0 +1,243 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, Segoe UI, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+  color: #1e2430;
+}
+
+.app-shell {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.topbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.model-picker {
+  min-width: 320px;
+  position: relative;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.model-input-wrap {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.model-picker input,
+.search-bar input,
+.value-actions input {
+  width: 100%;
+  border: 1px solid #c9d3e5;
+  border-radius: 8px;
+  padding: 0.45rem 0.55rem;
+  font: inherit;
+}
+
+.default-btn,
+.zone-tab,
+.command-item,
+.search-bar button,
+.value-actions button {
+  border: 1px solid #c4cfdf;
+  border-radius: 8px;
+  background: #fff;
+  color: inherit;
+  cursor: pointer;
+}
+
+.default-btn,
+.search-bar button,
+.value-actions button {
+  padding: 0.45rem 0.65rem;
+}
+
+.zone-tabs {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.zone-tab {
+  padding: 0.4rem 0.7rem;
+  text-transform: lowercase;
+}
+
+.zone-tab.active,
+.command-item.active {
+  background: #1f58e8;
+  border-color: #1f58e8;
+  color: #fff;
+}
+
+.search-row {
+  display: block;
+}
+
+.search-bar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: minmax(380px, 520px) 1fr;
+  gap: 0.9rem;
+  min-height: 72vh;
+}
+
+.command-pane,
+.detail-pane {
+  background: #fff;
+  border: 1px solid #d7deea;
+  border-radius: 12px;
+  padding: 0.8rem;
+}
+
+.command-list header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.command-list ul,
+.suggestions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.command-list li + li {
+  margin-top: 0.45rem;
+}
+
+.command-item {
+  width: 100%;
+  text-align: left;
+  padding: 0.55rem;
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 0.55rem;
+}
+
+.command-item p {
+  margin: 0.25rem 0 0;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.command-header {
+  border-bottom: 1px solid #e0e6f0;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.6rem;
+}
+
+.command-header h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1.08rem;
+}
+
+.values-list {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.value-row {
+  border: 1px solid #dbe2ee;
+  border-radius: 10px;
+  padding: 0.65rem;
+  display: grid;
+  grid-template-columns: 1fr minmax(240px, 340px);
+  gap: 0.8rem;
+}
+
+.value-meta p {
+  margin: 0.35rem 0 0;
+}
+
+.value-actions {
+  display: grid;
+  gap: 0.5rem;
+  align-content: start;
+}
+
+.raw-output code {
+  font-weight: 700;
+}
+
+.err {
+  color: #ba1e1e;
+  font-weight: 600;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 280px;
+  overflow: auto;
+  border: 1px solid #cad4e5;
+  border-radius: 10px;
+  background: #fff;
+  z-index: 10;
+}
+
+.suggestions button {
+  width: 100%;
+  text-align: left;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0.45rem 0.55rem;
+}
+
+.suggestions button:hover {
+  background: #edf2ff;
+}
+
+.empty-state {
+  color: #677188;
+}
+
+.selected-model {
+  color: #46506a;
+}
+
+@media (max-width: 1020px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .value-row {
+    grid-template-columns: 1fr;
+  }
+}

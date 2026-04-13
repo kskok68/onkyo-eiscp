@@ -1,0 +1,24 @@
+<section class="command-list">
+  <header>
+    <h2>${state.zone} commands</h2>
+    <span>${filteredCommands.length}</span>
+  </header>
+
+  <ul if.bind="filteredCommands.length > 0">
+    <li repeat.for="cmd of filteredCommands">
+      <button
+        class="command-item ${isActive(cmd) ? 'active' : ''}"
+        click.trigger="selectCommand(cmd)">
+        <code>${cmd.code}</code>
+        <div>
+          <strong>${cmd.name}</strong>
+          <p>${cmd.description}</p>
+        </div>
+      </button>
+    </li>
+  </ul>
+
+  <p if.bind="filteredCommands.length === 0" class="empty-state">
+    No commands match this model/search combination.
+  </p>
+</section>

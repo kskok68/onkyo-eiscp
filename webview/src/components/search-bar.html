@@ -1,0 +1,8 @@
+<div class="search-bar">
+  <label for="command-search">Search</label>
+  <input
+    id="command-search"
+    value.bind="state.search"
+    placeholder="Search code, name, alias, description">
+  <button click.trigger="clear()" disabled.bind="!state.search">Clear</button>
+</div>

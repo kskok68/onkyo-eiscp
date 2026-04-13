@@ -1,0 +1,8 @@
+<nav class="zone-tabs" aria-label="Receiver zones">
+  <button
+    repeat.for="zone of db.zones"
+    class="zone-tab ${isActive(zone) ? 'active' : ''}"
+    click.trigger="selectZone(zone)">
+    ${zone}
+  </button>
+</nav>
