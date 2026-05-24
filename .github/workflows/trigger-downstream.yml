@@ -14,5 +14,5 @@ jobs:
           curl -X POST \
             -H "Authorization: token ${{ secrets.ONKYO2MQTT_PAT }}" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/kskok68/onkyo2mqtt-py3/actions/workflows/docker-publish.yml/dispatches \
+            https://api.github.com/repos/kskok68/onkyo2mqtt-py3/actions/workflows/docker.yml/dispatches \
             -d '{"ref":"beta"}'
