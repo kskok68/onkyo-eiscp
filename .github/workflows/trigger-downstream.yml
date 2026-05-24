@@ -1,0 +1,18 @@
+name: Trigger onkyo2mqtt-py3 beta rebuild
+
+on:
+  push:
+    branches:
+      - beta
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger downstream build
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.ONKYO2MQTT_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/kskok68/onkyo2mqtt-py3/actions/workflows/docker-publish.yml/dispatches \
+            -d '{"ref":"beta"}'
