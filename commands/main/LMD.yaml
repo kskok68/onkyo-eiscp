@@ -3487,7 +3487,7 @@ values:
     - TX-SR875
     - TX-SR876
     name:
-    - plii
+    - plii-80
     - pliix-movie
     - dolby-atmos
     - dolby-surround
@@ -3639,7 +3639,7 @@ values:
     - TX-SR875
     - TX-SR876
     name:
-    - plii
+    - plii-81
     - pliix-music
   '82':
     description: sets Neo:6 Cinema/Neo:X Cinema, DTS:X/Neural:X
@@ -4218,7 +4218,7 @@ values:
     - TX-SR875
     - TX-SR876
     name:
-    - plii
+    - plii-84
     - pliix-thx-cinema
     - dolby-surround-thx-cinema
   '85':
@@ -4542,7 +4542,7 @@ values:
     - TX-SR875
     - TX-SR876
     name:
-    - plii
+    - plii-86
     - pliix-game
   '87':
     description: sets Neural Surr
@@ -4743,7 +4743,7 @@ values:
     - TX-SR875
     - TX-SR876
     name:
-    - plii
+    - plii-89
     - pliix-thx-games
     - dolby-surround-thx-games
   8A:
@@ -5038,7 +5038,7 @@ values:
     - TX-SR806
     - TX-SR876
     name:
-    - plii
+    - plii-8B
     - pliix-thx-music
     - dolby-surround-thx-music
   8C:
