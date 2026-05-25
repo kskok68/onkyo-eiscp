@@ -1730,11 +1730,11 @@ main:
         description: sets THX Games Mode,THX U(2)/S(2)/I/S Games
         models: set145
       '80':
-        name: [plii, pliix-movie, dolby-atmos, dolby-surround]
+        name: [plii-80, pliix-movie, dolby-atmos, dolby-surround]
         description: sets PLII/PLIIx Movie, Dolby Atmos/Dolby Surround
         models: set146
       '81':
-        name: [plii, pliix-music]
+        name: [plii-81, pliix-music]
         description: sets PLII/PLIIx Music
         models: set147
       '82':
@@ -1746,7 +1746,7 @@ main:
         description: sets Neo:6 Music/Neo:X Music
         models: set149
       '84':
-        name: [plii, pliix-thx-cinema, dolby-surround-thx-cinema]
+        name: [plii-84, pliix-thx-cinema, dolby-surround-thx-cinema]
         description: sets PLII/PLIIx THX Cinema, Dolby Surround THX Cinema
         models: set150
       '85':
@@ -1754,7 +1754,7 @@ main:
         description: sets Neo:6/Neo:X THX Cinema, DTS Neural:X THX Cinema
         models: set151
       '86':
-        name: [plii, pliix-game]
+        name: [plii-86, pliix-game]
         description: sets PLII/PLIIx Game
         models: set152
       '87':
@@ -1766,7 +1766,7 @@ main:
         description: sets Neural THX/Neural Surround
         models: set154
       '89':
-        name: [plii, pliix-thx-games, dolby-surround-thx-games]
+        name: [plii-89, pliix-thx-games, dolby-surround-thx-games]
         description: sets PLII/PLIIx THX Games, Dolby Surround THX Games
         models: set155
       8A:
@@ -1774,7 +1774,7 @@ main:
         description: sets Neo:6/Neo:X THX Games, DTS Neural:X THX Games
         models: set156
       8B:
-        name: [plii, pliix-thx-music, dolby-surround-thx-music]
+        name: [plii-8B, pliix-thx-music, dolby-surround-thx-music]
         description: sets PLII/PLIIx THX Music, Dolby Surround THX Music
         models: set157
       8C:
