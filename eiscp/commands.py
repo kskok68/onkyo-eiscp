@@ -1,7 +1,7 @@
 # Generated
 #  by generate_commands_module.py
 #  from eiscp-commands.yaml
-#  at 2026-05-25 01:15:01.907930
+#  at 2026-05-25 02:04:49.460672
 
 from collections import OrderedDict
 from .utils import ValueRange
