@@ -1615,7 +1615,7 @@ main:
         description: sets MONO MOVIE
         models: set127
       08:
-        name: [orchestra, classical]
+        name: [classical, orchestra]
         description: sets ORCHESTRA / Classical
         models: set124
       09:
@@ -1623,19 +1623,19 @@ main:
         description: sets UNPLUGGED
         models: set124
       0A:
-        name: [studio-mix, entertainment-show]
+        name: [entertainment-show, studio-mix]
         description: sets STUDIO-MIX / Entertainment Show
         models: set124
       0B:
-        name: [tv-logic, drama]
+        name: [drama, tv-logic]
         description: sets TV LOGIC / Drama
         models: set124
       0C:
-        name: [all-ch-stereo, extended-stereo]
+        name: [extended-stereo, all-ch-stereo]
         description: sets ALL CH STEREO /  Extended Stereo
         models: set124
       0D:
-        name: [theater-dimensional, front-stage-surround]
+        name: [front-stage-surround, theater-dimensional]
         description: sets THEATER-DIMENSIONAL / Front Stage Surround
         models: set128
       0E:
@@ -1647,7 +1647,7 @@ main:
         description: sets MONO
         models: set130
       '11':
-        name: [pure-audio, pure-direct]
+        name: [pure-direct, pure-audio]
         description: sets PURE AUDIO / Pure Direct
         models: set131
       '12':
