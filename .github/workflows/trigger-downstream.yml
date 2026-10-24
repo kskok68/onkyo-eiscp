@@ -6,6 +6,8 @@ on:
       - beta
     paths:
       - 'eiscp-commands.yaml'
+      - 'generate_commands_module.py'
+  workflow_dispatch:
 
 jobs:
   generate-and-trigger:

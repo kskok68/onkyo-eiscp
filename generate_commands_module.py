@@ -53,9 +53,30 @@ with open(sys.argv[1], 'r', encoding='utf-8') as f:
     data = yaml.safe_load(f)
 
 
-# Remove modelsets key, not a real zone
+# Models for which the LAST alias in a value's name list should be reported
+# first, because onkyo2mqtt publishes only the first name (parsed[1][0]).
+# Applies to the listening-mode (LMD) command only.
+PREFER_LAST_NAME = {('LMD', 'TX-RZ30'), ('LMD', 'TX-RZ50')}
+
+
+def prefer_last_name(command_data, value_data):
+    """Return the value's name, rotated so the last alias comes first when
+    the value lists a model in PREFER_LAST_NAME for this command."""
+    name = value_data.get('name')
+    if not isinstance(name, tuple) or len(name) < 2:
+        return name
+    models = value_data.get('models') or ()
+    if isinstance(models, str):          # e.g. 'set4' -> list of model names
+        models = MODELSETS.get(models, ())
+    for cmd, model in PREFER_LAST_NAME:
+        if command_data.get('name') == 'listening-mode' and cmd == 'LMD' and model in models:
+            return (name[-1],) + name[:-1]
+    return name
+
+
+# Remove modelsets key, not a real zone (keep a copy to resolve model names)
 zones = data
-del zones['modelsets']
+MODELSETS = zones.pop('modelsets')
 
 # Generate the Python structures
 #
@@ -68,7 +89,7 @@ COMMANDS = OrderedDict([
             'description': command_data['description'],
             'values': OrderedDict([
                 (value, {
-                    'name': value_data.get('name'),
+                    'name': prefer_last_name(command_data, value_data),
                     'description': value_data['description'],
                 })
                 for value, value_data in command_data['values'].items()
